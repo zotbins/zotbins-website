@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import uci_dining from "../assets/UCI_DINING.png";
-import uci_src from "../assets/src.png";
-import uci_esw from "../assets/UCI_ESW.png";
 
 const Partners = () => {
   return (
@@ -15,9 +12,19 @@ const Partners = () => {
         </h3>
       </div>
       <div className="flex flex-row items-center justify-center space-x-8">
-        <Image src={uci_dining} width="100" alt="uci-dining" />
-        <Image src={uci_src} width="100" alt="uci-src" />
-        <Image src={uci_esw} width="100" alt="uci-esw" />
+        <Image
+          src={"/assets/UCI_DINING.png"}
+          height="100"
+          width="100"
+          alt="uci-dining"
+        />
+        <Image src={"/assets/src.png"} height="100" width="100" alt="uci-src" />
+        <Image
+          src={"/assets/UCI_ESW.png"}
+          height="100"
+          width="100"
+          alt="uci-esw"
+        />
       </div>
     </div>
   );
