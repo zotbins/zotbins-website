@@ -1,10 +1,12 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import sample_pfp from "../assets/profile-images/sample-pfp.png";
+import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 const MemberCard = (props: any) => {
   return (
-    <div className="w-96 border border-gray-300 flex p-4 rounded-lg">
+    <div className="w-[22rem] border border-gray-300 flex py-4 pl-4 rounded-lg">
       <div className="flex flex-row items-center">
         <Image
           width="100"
@@ -18,8 +20,10 @@ const MemberCard = (props: any) => {
             {props.member.name}
           </h5>
           <div className="mb-2 text-md text-gray-500">{props.member.role}</div>
-          <div className="text-sm text-gray-500">
-            {props.member.description}
+          <div className="text-xl text-black/80 w-fit">
+            <Link href={props.member.linkedin} target="_blank">
+              <FaLinkedin />
+            </Link>
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Timeline from "@/components/Timeline";
 import Image from "next/image";
@@ -26,6 +27,16 @@ const OurProject = () => {
         <div className="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
           Integration into ZotBins Organization
         </div>
+      </div>
+
+      <div className="text-black/80 text-left py-4">
+        <h2 className="text-4xl font-bold text-[#87b676]">The ZotZero App</h2>
+        <h3 className="text-xl max-w-[700px] mt-4">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+          commodi amet voluptatum, maiores tempora molestiae dolores dolore modi
+          non tenetur possimus hic quia porro itaque cumque odit nihil assumenda
+          neque!
+        </h3>
       </div>
 
       <div className="pt-24 text-black/80 text-left py-4">

@@ -6,11 +6,12 @@ import { members } from "../members";
 const Team = () => {
   const teams = [
     "Hardware",
-    "Embedded",
+    "Embedded Systems",
     "Waste Recognition",
     "API",
     "Web & Mobile",
   ];
+
   const [activeTeam, setActiveTeam] = useState("Hardware");
   return (
     <div className="pt-12 m-8">
@@ -30,7 +31,7 @@ const Team = () => {
             <button
               key={team}
               onClick={() => setActiveTeam(team)}
-              className={`p-2 px-16 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20 ${
+              className={`p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20 ${
                 activeTeam === team ? "bg-[#87b676]/50" : ""
               }`}
             >
@@ -39,12 +40,41 @@ const Team = () => {
           ))}
         </div>
         <h4 className="pt-4 text-xl font-bold text-black/80">What we do:</h4>
-        <p className="pb-4 text-md text-black/80">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi
-          deserunt beatae, doloribus corporis consequuntur nihil dignissimos et
-          sapiente obcaecati. Soluta nesciunt repudiandae debitis impedit. Sunt
-          magnam voluptatibus cumque cum nesciunt.
-        </p>
+        {activeTeam === "Hardware" && (
+          <p className="pb-4 text-md text-black/80">
+            We oversee the design, assembly, and maintenance of the physical
+            smart bins, encompassing their sensor arrays, wiring, and related
+            components. Additionally, we collaborate with various sub-teams to
+            facilitate embedded system tests, CAD durability and functionality
+            assessments, and PCB design evaluations.
+          </p>
+        )}
+        {activeTeam === "Embedded Systems" && (
+          <p className="pb-4 text-md text-black/80">EMBEDDED DESCRIPTION</p>
+        )}
+        {activeTeam === "Waste Recognition" && (
+          <p className="pb-4 text-md text-black/80">WASTE REC DESCRIPTION</p>
+        )}
+        {activeTeam === "API" && (
+          <p className="pb-4 text-md text-black/80">
+            We leverage cloud technologies to develop scalable middleware
+            infrastructure that acts as a bridge between hardware and software.
+            Our job is to ensure the smooth and secure transfer of data from
+            embedded systems integrated into the smart bins to our database
+            living on the cloud, and then from our database to our web and
+            mobile apps.
+          </p>
+        )}
+        {activeTeam === "Web & Mobile" && (
+          <p className="pb-4 text-md text-black/80">
+            We are responsible for developing the web and mobile applications
+            (i.e. ZotZero) that our users will interact with alongside the
+            ZotBin. We work alongside designers to build elegant and intuitive
+            UI/UX designs, while our developers integrate them using Next.js,
+            React Native, and Node.js web frameworks.
+          </p>
+        )}
+
         <div className="flex flex-row flex-wrap items-center justify-center">
           {members.map((m, index) => {
             if (m.subgroup === activeTeam)
