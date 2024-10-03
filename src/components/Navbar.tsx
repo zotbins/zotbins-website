@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="hidden md:flex mx-8 justify-between items-center">
         {/* Logo */}
         <div className="flex flex-1 justify-start text-[#87b676]">
-          <Link href={"/"}>LOGO</Link>
+          <Link href={"/"}>ZOTBINS</Link>
         </div>
         {/* About, Our Project, Team */}
         <div className="flex flex-1 justify-center">
