@@ -9,10 +9,11 @@ const OurProject = () => {
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">The ZotBin</h2>
         <h3 className="text-xl max-w-[700px] mt-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          commodi amet voluptatum, maiores tempora molestiae dolores dolore modi
-          non tenetur possimus hic quia porro itaque cumque odit nihil assumenda
-          neque!
+          We are currently researching ways to leverage new machine learning
+          models to interactively segment and classify trash to assist in proper
+          sorting. With our findings, we are constructing a physical smart waste
+          bin that will guide users towards proper waste handling, called the
+          ZotBin!
         </h3>
       </div>
 
@@ -32,17 +33,17 @@ const OurProject = () => {
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">The ZotZero App</h2>
         <h3 className="text-xl max-w-[700px] mt-4">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-          commodi amet voluptatum, maiores tempora molestiae dolores dolore modi
-          non tenetur possimus hic quia porro itaque cumque odit nihil assumenda
-          neque!
+          To facilitate the hardware, we are developing a mobile application
+          that will allow users to capture photos of their food waste, which
+          will be sent to the machine learning model and then communicate to the
+          users the correct bin for disposal.
         </h3>
       </div>
 
-      <div className="pt-24 text-black/80 text-left py-4">
+      {/* <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Timeline</h2>
         <Timeline />
-      </div>
+      </div> */}
     </div>
   );
 };

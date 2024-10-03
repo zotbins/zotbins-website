@@ -48,6 +48,7 @@ const Navbar = () => {
           <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded">
             <Link
               href={"https://airtable.com/appzF8nZcqC7jK3Dl/shrusFzrb8htRaWjz"}
+              target="_blank"
             >
               <p>Apply</p>
             </Link>

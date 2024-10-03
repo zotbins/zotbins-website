@@ -12,7 +12,7 @@ const Contact = () => {
         </h3>
       </div>
       <button className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded">
-        <Link href={"our-project"}>
+        <Link href={"mailto:zotbinsuci@gmail.com"}>
           <p>Email</p>
         </Link>
       </button>

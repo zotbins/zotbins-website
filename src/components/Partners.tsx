@@ -8,7 +8,8 @@ const Partners = () => {
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Our Partners</h2>
         <h3 className="text-xl max-w-[700px] mt-4">
-          Our partners support us to create a product that will...
+          We are thankful to our partners for supporting our journey towards
+          building the ZotBin!
         </h3>
       </div>
       <div className="flex flex-row items-center justify-center space-x-8">

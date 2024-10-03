@@ -18,10 +18,9 @@ const Team = () => {
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Meet the Team</h2>
         <h3 className="text-xl max-w-[700px] mt-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-          officiis mollitia excepturi cupiditate soluta minus accusantium
-          ratione quia, nulla asperiores illum? Voluptas ipsum blanditiis
-          facilis explicabo, cum vitae laudantium aspernatur!
+          Our team consists of five subgroups, each of which provide an
+          essential component to our research towards building the ZotBin.
+          Explore our subgroups and members below!
         </h3>
       </div>
       {/* Teams */}
