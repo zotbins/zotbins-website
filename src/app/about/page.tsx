@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -21,7 +20,7 @@ const About = () => {
         <h3 className="text-xl max-w-[700px] mt-4">
           This project started at UCI in 2017 with a group of 4 undergraduates
           for a hackathon hosted by UCI TIPPERS. The aim of the project was to
-          help create a tool to help with UCI’s zero waste initiatives. With the
+          help create a tool to help with UCI's zero waste initiatives. With the
           guidance of professors and graduate students from the TIPPERS research
           group, the team was able to grow from 4 to over 15 individuals all
           working on the ZotBins project. Together they have been able to build

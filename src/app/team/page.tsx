@@ -49,7 +49,14 @@ const Team = () => {
           </p>
         )}
         {activeTeam === "Embedded Systems" && (
-          <p className="pb-4 text-md text-black/80">EMBEDDED DESCRIPTION</p>
+          <p className="pb-4 text-md text-black/80">
+            Formerly utilizing Arduino-IDE, we are currently overhauling the
+            ZotBins project into the ESP-IDF framework with the intent to use
+            FreeRTOS scheduling on the sensor array. We collaborate with the
+            Hardware subgroup by writing code for the sensor components on the
+            ESP32, and also work with the API subgroup with communication
+            protocols to send data over Wi-Fi.
+          </p>
         )}
         {activeTeam === "Waste Recognition" && (
           <p className="pb-4 text-md text-black/80">WASTE REC DESCRIPTION</p>
