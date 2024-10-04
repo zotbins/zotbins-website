@@ -1,5 +1,5 @@
-"use client";
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -13,6 +13,15 @@ const About = () => {
           diverted from landfills through methods such as recycling) and
           reducing waste management CO<sub>2</sub> emissions!
         </h3>
+      </div>
+      <div className="py-4">
+        <Image
+          className="rounded-lg"
+          width={4032}
+          height={1672}
+          src={"/assets/group_photo.jpg"}
+          alt="group_photo"
+        />
       </div>
 
       <div className="text-black/80 text-left py-4">

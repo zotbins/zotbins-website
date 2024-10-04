@@ -1,4 +1,3 @@
-"use client";
 import Introduction from "@/components/Introduction";
 import Mission from "@/components/Mission";
 import Partners from "@/components/Partners";

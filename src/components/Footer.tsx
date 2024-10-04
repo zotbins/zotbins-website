@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { FaYoutube, FaGithub, FaInstagram } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
