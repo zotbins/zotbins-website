@@ -34,7 +34,7 @@ const Introduction = () => {
       <div className="m-8">
         <div className="text-black/80 text-left py-4">
           <h2 className="text-4xl font-bold text-[#87b676]">Our Mission</h2>
-          <h3 className="text-xl max-w-[700px] mt-4">
+          <h3 className="text-xl mt-4">
             ZotBins is a smart waste bin system that collects data to help make
             waste management more efficient and to promote zero waste. We aim to
             deploy our final design at the Los Angeles Olympics in 2028!
@@ -50,7 +50,7 @@ const Introduction = () => {
       <div className="m-8">
         <div className="text-black/80 text-left py-4">
           <h2 className="text-4xl font-bold text-[#87b676]">Our Partners</h2>
-          <h3 className="text-xl max-w-[700px] mt-4">
+          <h3 className="text-xl mt-4">
             We are thankful to our partners for supporting our journey towards
             building the ZotBin!
           </h3>

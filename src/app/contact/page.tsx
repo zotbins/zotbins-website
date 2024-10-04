@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Contact Us</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           Questions about our project, recruitment, or anything related?
         </h3>
       </div>
@@ -17,9 +17,7 @@ const Contact = () => {
       </button>
       <div className="text-black/80 text-left py-4 pt-8">
         <h2 className="text-4xl font-bold text-[#87b676]">Join Our Team</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
-          Interested in joining? Apply today!
-        </h3>
+        <h3 className="text-xl mt-4">Interested in joining? Apply today!</h3>
       </div>
       <button className="bg-[#87b676] text-white font-bold py-2 px-4 rounded">
         <Link

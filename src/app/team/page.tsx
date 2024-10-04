@@ -20,7 +20,7 @@ const Team = () => {
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Our Team</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           Our team consists of five subgroups, each of which provide an
           essential component to our research towards building the ZotBin.
           Explore our subgroups and members below!

@@ -7,7 +7,7 @@ const OurProject = () => {
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">The ZotBin</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           We are currently researching ways to leverage new machine learning
           models to interactively segment and classify trash to assist in proper
           sorting. With our findings, we are constructing a physical smart waste
@@ -31,7 +31,7 @@ const OurProject = () => {
 
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">The ZotZero App</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           To facilitate the hardware, we are developing a mobile application
           that will allow users to capture photos of their food waste, which
           will be sent to the machine learning model and then communicate to the

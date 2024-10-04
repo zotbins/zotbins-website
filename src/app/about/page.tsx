@@ -6,7 +6,7 @@ const About = () => {
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">About Us</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           We are an independent group of undergraduate researchers at UCI
           passionate about technology-based zero waste management. We aim to
           assist communities towards improving waste diversion rates (% of waste
@@ -26,7 +26,7 @@ const About = () => {
 
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Our Story</h2>
-        <h3 className="text-xl max-w-[700px] mt-4">
+        <h3 className="text-xl mt-4">
           This project started at UCI in 2017 with a group of 4 undergraduates
           for a hackathon hosted by UCI TIPPERS. The aim of the project was to
           help create a tool to help with UCI's zero waste initiatives. With the
