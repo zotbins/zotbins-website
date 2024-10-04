@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import MemberCard from "@/components/MemberCard";
 import { members } from "../members";
+import { FaAngleDown } from "react-icons/fa6";
 
 const Team = () => {
   const teams = [
@@ -13,10 +14,12 @@ const Team = () => {
   ];
 
   const [activeTeam, setActiveTeam] = useState("Hardware");
+  const [openDropdown, setOpenDropdown] = useState(false);
+
   return (
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
-        <h2 className="text-4xl font-bold text-[#87b676]">Meet the Team</h2>
+        <h2 className="text-4xl font-bold text-[#87b676]">Our Team</h2>
         <h3 className="text-xl max-w-[700px] mt-4">
           Our team consists of five subgroups, each of which provide an
           essential component to our research towards building the ZotBin.
@@ -24,8 +27,8 @@ const Team = () => {
         </h3>
       </div>
       {/* Teams */}
-      <div className="rounded-lg p-2">
-        <div className="flex flex-row justify-between pb-2 border-b border-g-400">
+      <div className="rounded-lg">
+        <div className="hidden md:flex flex-row justify-between pb-2 border-b border-g-400">
           {teams.map((team) => (
             <button
               key={team}
@@ -38,6 +41,37 @@ const Team = () => {
             </button>
           ))}
         </div>
+
+        <div className="md:hidden flex">
+          <button
+            onClick={() => setOpenDropdown(!openDropdown)}
+            className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded flex flex-row items-center justify-between w-full"
+          >
+            {activeTeam}
+            <FaAngleDown className="ml-4" />
+          </button>
+        </div>
+
+        <div
+          className={`flex flex-col bg-gray-100 rounded ${
+            openDropdown ? "mt-2 p-2" : ""
+          }`}
+        >
+          {openDropdown &&
+            teams.map((team) => (
+              <button
+                key={team}
+                onClick={() => {
+                  setActiveTeam(team);
+                  setOpenDropdown(!openDropdown);
+                }}
+                className="flex p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20"
+              >
+                {team}
+              </button>
+            ))}
+        </div>
+
         <h4 className="pt-4 text-xl font-bold text-black/80">What we do:</h4>
         {activeTeam === "Hardware" && (
           <p className="pb-4 text-md text-black/80">
@@ -59,7 +93,14 @@ const Team = () => {
           </p>
         )}
         {activeTeam === "Waste Recognition" && (
-          <p className="pb-4 text-md text-black/80">WASTE REC DESCRIPTION</p>
+          <p className="pb-4 text-md text-black/80">
+            We are researching, training, and improving a computer vision model
+            to perform image localization and classification. We collaborate
+            closely with the Hardware and Web & Mobile teams to integrate these
+            algorithms into the mobile app and physical bins. Our daily work may
+            include waste image collections, data labeling, data preprocessing,
+            and algorithms development & implementation.
+          </p>
         )}
         {activeTeam === "API" && (
           <p className="pb-4 text-md text-black/80">
