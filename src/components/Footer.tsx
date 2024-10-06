@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="mt-12 py-8 bg-[#87b676] text-white flex flex-col items-center">
+    <div className=" py-8 bg-[#87b676] text-white flex flex-col items-center">
       <div className="text-xl flex flex-row space-x-8">
         <Link
           href={"https://www.linkedin.com/company/zotbins/"}
@@ -31,7 +31,7 @@ const Footer = () => {
         </Link>
       </div>
       <p className="pt-8 text-sm">
-        Copyright © ZotBins 2017-{new Date().getFullYear()}
+        Copyright © ZotBins 2017 - {new Date().getFullYear()}
       </p>
     </div>
   );

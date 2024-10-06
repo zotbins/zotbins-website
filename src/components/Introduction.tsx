@@ -1,11 +1,17 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import zotbins_logo from "../../public/assets/zotbins_logo.svg";
 
 const Introduction = () => {
   return (
     <div className="pt-24">
-      <div className="text-black/80 font-bold text-center">
+      <div className="text-black/80 font-bold text-center items-center flex flex-col">
+        <Image
+          src={zotbins_logo}
+          alt="zotbins_logo"
+          className="pb-8 max-w-48 md:max-w-64 w-full"
+        />
         <h1 className="text-8xl text-[#87b676]">ZotBins</h1>
         <h3 className="text-2xl text-[#87b676]">A Smart Waste Bins Project</h3>
 
@@ -50,7 +56,7 @@ const Introduction = () => {
       <div className="m-8">
         <div className="text-black/80 text-left py-4">
           <h2 className="text-4xl font-bold text-[#87b676]">Our Partners</h2>
-          <h3 className="text-xl mt-4">
+          <h3 className="text-xl my-4">
             We are thankful to our partners for supporting our journey towards
             building the ZotBin!
           </h3>
@@ -58,20 +64,20 @@ const Introduction = () => {
         <div className="flex flex-row items-center justify-center space-x-8">
           <Image
             src={"/assets/UCI_DINING.png"}
-            height="100"
-            width="100"
+            height="150"
+            width="150"
             alt="uci-dining"
           />
           <Image
             src={"/assets/src.png"}
-            height="100"
-            width="100"
+            height="150"
+            width="150"
             alt="uci-src"
           />
           <Image
             src={"/assets/UCI_ESW.png"}
-            height="100"
-            width="100"
+            height="150"
+            width="150"
             alt="uci-esw"
           />
         </div>

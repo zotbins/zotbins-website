@@ -19,7 +19,7 @@ const Contact = () => {
         <h2 className="text-4xl font-bold text-[#87b676]">Join Our Team</h2>
         <h3 className="text-xl mt-4">Interested in joining? Apply today!</h3>
       </div>
-      <button className="bg-[#87b676] text-white font-bold py-2 px-4 rounded">
+      <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded">
         <Link
           href={"https://airtable.com/appzF8nZcqC7jK3Dl/shrusFzrb8htRaWjz"}
           target="_blank"

@@ -14,9 +14,9 @@ const About = () => {
           reducing waste management CO<sub>2</sub> emissions!
         </h3>
       </div>
-      <div className="py-4">
+      <div className="py-4 flex justify-center">
         <Image
-          className="rounded-lg"
+          className="rounded-lg w-full max-w-3xl"
           width={4032}
           height={1672}
           src={"/assets/group_photo.jpg"}

@@ -45,6 +45,13 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/arya-mhaiskar/",
   },
   {
+    name: "Nathan Pietrantonio",
+    image: "/assets/profile-images/NathanPietrantonio.jpg",
+    role: "Subgroup Lead",
+    subgroup: "Waste Recognition",
+    linkedin: "https://www.linkedin.com/in/arya-mhaiskar/",
+  },
+  {
     name: "Varun Sunkavalli",
     image: "/assets/profile-images/VarunSunkavalli.png",
     role: "Researcher",

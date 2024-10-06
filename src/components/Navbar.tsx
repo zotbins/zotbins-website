@@ -2,6 +2,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Image from "next/image";
+import zotbins_logo from "../../public/assets/zotbins_logo.svg";
 
 const navLinks = [
   { title: "ZotBins", path: "/" },
@@ -30,7 +32,14 @@ const Navbar = () => {
       <div className="hidden md:flex mx-8 justify-between items-center">
         {/* Logo */}
         <div className="flex flex-1 justify-start text-[#87b676]">
-          <Link href={"/"}>ZOTBINS</Link>
+          <Link href={"/"}>
+            <Image
+              width={30}
+              height={30}
+              src={zotbins_logo}
+              alt="zotbins_logo"
+            />
+          </Link>
         </div>
         {/* About, Our Project, Team */}
         <div className="flex flex-1 justify-center">
@@ -41,11 +50,11 @@ const Navbar = () => {
                 link.title !== "Contact" &&
                 link.title !== "Apply" && (
                   <li
-                    className="px-8 flex text-nowrap justify-center items-center "
+                    className="px-6 flex text-nowrap justify-center items-center"
                     key={index}
                   >
                     <Link href={link.path}>
-                      <p>{link.title}</p>
+                      <p className="hover:text-black/50">{link.title}</p>
                     </Link>
                   </li>
                 )
@@ -55,7 +64,7 @@ const Navbar = () => {
         {/* Contact, Apply */}
         <div className="flex flex-1 justify-end">
           <Link href={"contact"}>
-            <p className="py-2 px-8">Contact</p>
+            <p className="py-2 px-6 hover:text-black/50">Contact</p>
           </Link>
           <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded">
             <Link
@@ -71,14 +80,18 @@ const Navbar = () => {
       {/* Mobile View */}
       <div className="flex mx-8 justify-between items-center">
         {!nav && (
-          <div className="md:hidden flex flex-1 pt-2 justify-start text-[#87b676]">
-            <Link href={"/"}>ZOTBINS</Link>
+          <div className="md:hidden flex flex-1 justify-start align-middle text-[#87b676]">
+            <Link href={"/"}>
+              <Image
+                width={30}
+                height={30}
+                src={zotbins_logo}
+                alt="zotbins_logo"
+              />
+            </Link>
           </div>
         )}
-        <button
-          onClick={toggleNav}
-          className="md:hidden absolute top-5 right-5 p-2 z-50"
-        >
+        <button onClick={toggleNav} className="md:hidden z-50">
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </button>
       </div>
@@ -89,7 +102,11 @@ const Navbar = () => {
             {navLinks.map((link, index) => (
               <li
                 key={index}
-                className={link.title === "ZotBins" ? "text-[#87b676]" : ""}
+                className={
+                  link.title === "ZotBins"
+                    ? "hover:text-[#87b676]/80 text-[#87b676]"
+                    : "hover:text-black/50"
+                }
               >
                 <Link href={link.path} onClick={closeNav}>
                   {link.title}

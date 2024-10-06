@@ -16,7 +16,7 @@ const OurProject = () => {
         </h3>
       </div>
 
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center py-4">
         <Image
           className="w-[32rem] rounded-lg border"
           src="/assets/integration.png"

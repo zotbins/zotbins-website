@@ -17,7 +17,7 @@ const Team = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
 
   return (
-    <div className="pt-12 m-8">
+    <div className="pt-12 py-1 m-8">
       <div className="text-black/80 text-left py-4">
         <h2 className="text-4xl font-bold text-[#87b676]">Our Team</h2>
         <h3 className="text-xl mt-4">
@@ -27,7 +27,7 @@ const Team = () => {
         </h3>
       </div>
       {/* Teams */}
-      <div className="rounded-lg">
+      <div className="pt-12">
         <div className="hidden md:flex flex-row justify-between pb-2 border-b border-g-400">
           {teams.map((team) => (
             <button
