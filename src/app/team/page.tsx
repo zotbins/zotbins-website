@@ -3,6 +3,10 @@ import React, { useState } from "react";
 import MemberCard from "@/components/MemberCard";
 import { members } from "../members";
 import { FaAngleDown } from "react-icons/fa6";
+import MentorCard from "@/components/MentorCard";
+import { mentors } from "../mentors";
+import { advisors } from "../advisors";
+import AdvisorCard from "@/components/AdvisorCard";
 
 const Team = () => {
   const teams = [
@@ -131,6 +135,32 @@ const Team = () => {
                 </div>
               );
           })}
+        </div>
+      </div>
+      {/* Mentors */}
+      <div className="pt-12">
+        <div className="text-black/80 text-left py-4">
+          <h2 className="text-4xl font-bold text-[#87b676]">Mentors</h2>
+        </div>
+        <div className="flex flex-row flex-wrap items-center justify-center">
+          {mentors.map((m, index) => (
+            <div key={index} className="p-2">
+              <MentorCard member={m} />
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* Advisors */}
+      <div className="pt-12">
+        <div className="text-black/80 text-left py-4">
+          <h2 className="text-4xl font-bold text-[#87b676]">Advisors</h2>
+        </div>
+        <div className="flex flex-row flex-wrap items-center justify-center">
+          {advisors.map((m, index) => (
+            <div key={index} className="p-2">
+              <AdvisorCard member={m} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
