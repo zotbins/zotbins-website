@@ -11,7 +11,7 @@ export const members = [
     name: "Carm Ypil Hermosilla",
     image: "/assets/profile-images/sample-pfp.png",
     role: "Engineer",
-    subgroup: "Hardware",
+    subgroup: "Embedded",
     linkedin: "https://www.linkedin.com/in/carm-hermosilla/",
   },
   // EMBEDDED SYSTEMS
