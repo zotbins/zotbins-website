@@ -8,11 +8,60 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/bart-backer",
   },
   {
-    name: "Carm Ypil Hermosilla",
-    image: "/assets/profile-images/sample-pfp.png",
+    name: "Adrianne Chang",
+    image: "/assets/profile-images/AdrianneChang.jpg",
     role: "Engineer",
-    subgroup: "Embedded",
-    linkedin: "https://www.linkedin.com/in/carm-hermosilla/",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com"
+  },
+  {
+    name: "Youngwoo Chang",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com"
+  },
+  {
+    name: "Philip Hopkins",
+    image: "/assets/profile-images/PhilipHopkins.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com/in/philip-hopkins-a173612b5/"
+  },
+  {
+    name: "Jenny Liang",
+    image: "/assets/profile-images/JennyLiang.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com/in/jennyliang2005/"
+  },
+  {
+    name: "Mihir Mehta",
+    image: "/assets/profile-images/MihirMehta.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com/in/mihir-mehta-a86042229/"
+  },
+  {
+    name: "Samith Varamballi",
+    image: "/assets/profile-images/SamithVaramballi.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com/in/samith-varamballi/"
+  },
+  {
+    name: "Chad Wong",
+    image: "/assets/profile-images/ChadWong.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"http://www.linkedin.com/in/chad-wong-65a076321/"
+  },
+  {
+    name: "Hudson Wheeler",
+    image: "/assets/profile-images/HudsonWheeler.png",
+    role: "Engineer",
+    subgroup: "Hardware",
+    linkedin:"http://www.linkedin.com/in/hudson-wheeler-38786526a/"
   },
   // EMBEDDED SYSTEMS
   {
@@ -23,11 +72,95 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/anthony-chen-639750174/",
   },
   {
+    name: "Priya Patel",
+    image: "/assets/profile-images/PriyaPatel.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/priyapa/",
+  },
+  {
+    name: "Jeffrey Frederick",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/jeffreyfrederick1/",
+  },
+  {
+    name: "Vathsan Sankaranarayanan",
+    image: "/assets/profile-images/VathsanSankaranarayanan.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/srivathsan-sankaranarayanan-29659b197/",
+  },
+  {
+    name: "Jerald Adriano",
+    image: "/assets/profile-images/JeraldAdriano.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/jeraldadriano/",
+  },
+  {
+    name: "Ryan Su",
+    image: "/assets/profile-images/RyanSu.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/ryan-m-su/",
+  },
+  {
+    name: "Hussain Mahuvawala",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/hm1711/",
+  },
+  {
+    name: "Andy Choi",
+    image: "/assets/profile-images/AndyChoi.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/andy-choi-2b503a27b/",
+  },
+  {
+    name: "Krish Mehta",
+    image: "/assets/profile-images/KrishMehta.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/krish-n-mehta/",
+  },
+  {
+    name: "Eric Liu",
+    image: "/assets/profile-images/EricLiu.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/eriliu/",
+  },
+  {
+    name: "Oscar Rodriguez",
+    image: "/assets/profile-images/OscarRodriguez.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/alwaysoscar/",
+  },
+  {
+    name: "Zarin Hasan",
+    image: "/assets/profile-images/ZarinHasan.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/zarin-hasan-20983522b/",
+  },
+  {
     name: "Alex Ikeda",
     image: "/assets/profile-images/sample-pfp-2.png",
     role: "Engineer",
     subgroup: "Embedded Systems",
     linkedin: "https://www.linkedin.com/in/alexikeda/",
+  },
+  {
+    name: "Carm Hermosilla",
+    image: "/assets/profile-images/sample-pfp.png",
+    role: "Engineer",
+    subgroup: "Embedded Systems",
+    linkedin: "https://www.linkedin.com/in/carm-hermosilla/",
   },
   // WASTE RECOGNITION
   {
@@ -49,7 +182,28 @@ export const members = [
     image: "/assets/profile-images/NathanPietrantonio.jpg",
     role: "Subgroup Lead",
     subgroup: "Waste Recognition",
-    linkedin: "https://www.linkedin.com/in/arya-mhaiskar/",
+    linkedin: "https://www.linkedin.com/in/nathanlp/",
+  },
+  {
+    name: "Rebecca Su",
+    image: "/assets/profile-images/sample-pfp.png",
+    role: "Developer",
+    subgroup: "Waste Recognition",
+    linkedin: "https://www.linkedin.com/in/surebecca/",
+  },
+  {
+    name: "Aditya Agrawal",
+    image: "/assets/profile-images/AdityaAgrawal.png",
+    role: "Developer",
+    subgroup: "Waste Recognition",
+    linkedin: "https://www.linkedin.com/in/aagrawal05/",
+  },
+  {
+    name: "Lahari Yallapragada",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Developer",
+    subgroup: "Waste Recognition",
+    linkedin: "https://www.linkedin.com/",
   },
   {
     name: "Varun Sunkavalli",
@@ -61,7 +215,7 @@ export const members = [
   // API
   {
     name: "Jason Zenarosa",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/JasonZenarosa.png",
     role: "Subgroup Lead",
     subgroup: "API",
     linkedin: "https://www.linkedin.com/in/jasonzenarosa",
@@ -75,7 +229,7 @@ export const members = [
   },
   {
     name: "Geric Capili",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/GericCapili.png",
     role: "Developer",
     subgroup: "API",
     linkedin: "https://www.linkedin.com/in/gericcapili/",
@@ -101,6 +255,41 @@ export const members = [
     subgroup: "API",
     linkedin: "https://www.linkedin.com/in/cali-kuang/",
   },
+  {
+    name: "Alvin Phan",
+    image: "/assets/profile-images/AlvinPhan.png",
+    role: "Developer",
+    subgroup: "API",
+    linkedin: "https://www.linkedin.com/in/alvinphan3/",
+  },
+  {
+    name: "Kali Daschoudhary",
+    image: "/assets/profile-images/sample-pfp.png",
+    role: "Developer",
+    subgroup: "API",
+    linkedin: "https://www.linkedin.com",
+  },
+  {
+    name: "Steven Lee",
+    image: "/assets/profile-images/StevenLee.png",
+    role: "Developer",
+    subgroup: "API",
+    linkedin: "https://www.linkedin.com/in/steven-lee-55353b295/",
+  },
+  {
+    name: "Arnav Gosain",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Developer",
+    subgroup: "API",
+    linkedin: "https://www.linkedin.com",
+  },
+  {
+    name: "Nathan Che",
+    image: "/assets/profile-images/NathanChe.png",
+    role: "Developer",
+    subgroup: "API",
+    linkedin: "https://www.linkedin.com/in/nathan-che1/",
+  },
   // WEB AND MOBILE
   {
     name: "Evan Servito",
@@ -122,5 +311,47 @@ export const members = [
     role: "Developer",
     subgroup: "Web & Mobile",
     linkedin: "https://www.linkedin.com/in/sophia-belle-tran/",
+  },
+  {
+    name: "Cyrus Buffington",
+    image: "/assets/profile-images/CyrusBuffington.png",
+    role: "Developer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/cyrusbuffington/",
+  },
+  {
+    name: "Ethan Santos",
+    image: "/assets/profile-images/sample-pfp-2.png",
+    role: "Developer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com",
+  },
+  {
+    name: "Hearty Parrenas",
+    image: "/assets/profile-images/HeartyParrenas.png",
+    role: "Developer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/hearty-parrenas/",
+  },
+  {
+    name: "Kaylee Doliente",
+    image: "/assets/profile-images/KayleeDoliente.png",
+    role: "Designer",
+    subgroup: "Web & Mobile",
+    linkedin: "http://www.linkedin.com/in/kayleedoliente/",
+  },
+  {
+    name: "Grace Jong",
+    image: "/assets/profile-images/GraceJong.png",
+    role: "Designer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/gracejong/",
+  },
+  {
+    name: "Angie Xetey",
+    image: "/assets/profile-images/AngieXetey.png",
+    role: "Designer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/angie-xetey/",
   },
 ];
