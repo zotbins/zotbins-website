@@ -29,8 +29,7 @@ const Introduction = () => {
         </button>
         <button className="bg-[#87b676] text-white font-bold py-2 px-4 rounded">
           <Link
-            href={"https://airtable.com/appzF8nZcqC7jK3Dl/shrusFzrb8htRaWjz"}
-            target="_blank"
+            href={"apply"}
           >
             <p>Apply</p>
           </Link>

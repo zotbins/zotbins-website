@@ -200,10 +200,10 @@ export const members = [
   },
   {
     name: "Lahari Yallapragada",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/LahariYallapragada.png",
     role: "Researcher",
     subgroup: "Waste Recognition",
-    linkedin: "https://www.linkedin.com/",
+    linkedin: "http://www.linkedin.com/in/lahariyallapragada/",
   },
   {
     name: "Varun Sunkavalli",
@@ -278,10 +278,10 @@ export const members = [
   },
   {
     name: "Arnav Gosain",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/ArnavGosain.png",
     role: "Developer",
     subgroup: "API",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/arnav-gosain/",
   },
   {
     name: "Nathan Che",
@@ -321,10 +321,10 @@ export const members = [
   },
   {
     name: "Ethan Santos",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/EthanSantos.png",
     role: "Developer",
     subgroup: "Web & Mobile",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/ethanmadeit/",
   },
   {
     name: "Hearty Parrenas",

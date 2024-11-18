@@ -11,7 +11,7 @@ const navLinks = [
   { title: "Our Project", path: "our-project" },
   { title: "Team", path: "team" },
   { title: "Contact", path: "contact" },
-  { title: "Apply", path: "contact" },
+  { title: "Apply", path: "apply" },
 ];
 
 const Navbar = () => {
@@ -67,10 +67,7 @@ const Navbar = () => {
             <p className="py-2 px-6 hover:text-black/50">Contact</p>
           </Link>
           <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded">
-            <Link
-              href={"https://airtable.com/appzF8nZcqC7jK3Dl/shrusFzrb8htRaWjz"}
-              target="_blank"
-            >
+            <Link href={"apply"}>
               <p>Apply</p>
             </Link>
           </button>
