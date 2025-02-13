@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { useStore } from '@xyflow/react';
  
-const zoomSelector = (state) => state.transform[2];
+const zoomSelector = (state: { transform: any[]; }) => state.transform[2];
 export default memo(({ data, id }) => {
     const zoom = useStore(zoomSelector);
 

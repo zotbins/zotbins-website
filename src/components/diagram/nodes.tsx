@@ -1,5 +1,3 @@
-import { source } from "framer-motion/client";
-
 const timescaleDB = '../assets/nodes/timescaledb.svg';
 const firebase = '../assets/nodes/firebase.svg';
 const initialNodes = [
