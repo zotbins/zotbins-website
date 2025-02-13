@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 import { useStore } from '@xyflow/react';
  
 const zoomSelector = (state: { transform: any[]; }) => state.transform[2];
-export default memo(({ data, id }) => {
+export default memo(({ data }: any) => {
     const zoom = useStore(zoomSelector);
 
     const opacity = zoom > 1.1 ? 0 : 2;

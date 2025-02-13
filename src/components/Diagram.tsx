@@ -55,7 +55,7 @@ function Diagram() {
   const { setViewport, zoomIn, zoomOut, fitView } = useReactFlow();
   const [nodes, setNodes] = useState(initialNodes);
   const [edges, setEdges] = useState(initialEdges);
-  const [selectedNodeId, setSelectedNodeId] = useState(null);
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
 
 
   const handleZoomToSelectedNode = useCallback((nodeId: string | null) => {
