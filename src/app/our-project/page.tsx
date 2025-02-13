@@ -3,7 +3,6 @@ import React from "react";
 import Timeline from "@/components/Timeline";
 import Image from "next/image";
 import Diagram from "@/components/Diagram";
-import ContextualZoomFlow from "@/components/HiddenNodes";
 
 const OurProject = () => {
   return (
