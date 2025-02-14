@@ -93,7 +93,7 @@ function Diagram() {
   }, [nodes, selectedNodeId, setViewport, fitView]);
 
   return (
-    <div className='h-[60vh] w-[80vw]' >
+    <div className='h-[70vh] w-[80vw]' >
       <ReactFlow
         edges={edges}
         nodes={nodes}

@@ -20,7 +20,7 @@ const OurProject = () => {
 
       <div className="flex flex-col items-center justify-center py-4">
         {/* For web screens */}
-        <div className="hidden md:block">
+        <div className="hidden md:block border border-gray-400">
           <Diagram />
         </div>
 
