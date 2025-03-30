@@ -234,13 +234,13 @@ export const members = [
     subgroup: "API",
     linkedin: "https://www.linkedin.com/in/gericcapili/",
   },
-  {
-    name: "Rebecca Ahn",
-    image: "/assets/profile-images/RebeccaAhn.jpg",
-    role: "Developer",
-    subgroup: "API",
-    linkedin: "https://www.linkedin.com/in/rebecca-ahn/",
-  },
+  // {
+  //   name: "Rebecca Ahn",
+  //   image: "/assets/profile-images/RebeccaAhn.jpg",
+  //   role: "Developer",
+  //   subgroup: "API",
+  //   linkedin: "https://www.linkedin.com/in/rebecca-ahn/",
+  // },
   {
     name: "Brianna Steier",
     image: "/assets/profile-images/BriannaSteier.jpg",
@@ -291,13 +291,13 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/nathan-che1/",
   },
   // WEB AND MOBILE
-  {
-    name: "Evan Servito",
-    image: "/assets/profile-images/EvanServito.jpg",
-    role: "Subgroup Lead",
-    subgroup: "Web & Mobile",
-    linkedin: "https://www.linkedin.com/in/evan-servito/",
-  },
+  // {
+  //   name: "Evan Servito",
+  //   image: "/assets/profile-images/EvanServito.jpg",
+  //   role: "Subgroup Lead",
+  //   subgroup: "Web & Mobile",
+  //   linkedin: "https://www.linkedin.com/in/evan-servito/",
+  // },
   {
     name: "Zion Mateo",
     image: "/assets/profile-images/ZionMateo.jpg",
@@ -308,7 +308,7 @@ export const members = [
   {
     name: "Sophia Tran",
     image: "/assets/profile-images/SophiaTran.jpg",
-    role: "Developer",
+    role: "Subgroup Lead",
     subgroup: "Web & Mobile",
     linkedin: "https://www.linkedin.com/in/sophia-belle-tran/",
   },
