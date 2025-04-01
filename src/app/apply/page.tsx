@@ -11,15 +11,16 @@ const Apply = () => {
           <br></br>To learn more about Zotbins, follow us on our social media platforms for the latest news, updates, and progress on our initiatives.
         </h3> */}
         <h3 className="text-xl mt-4">
-          We are currently recruiting for our Web & Mobile team! Apply by April 4, 2025 @11:59 PM PST to join our team and make an impact on campus sustainability!
-           <button className="bg-[#87b676]/80 text-white hover:bg-transparent white font-semibold hover:text-[#87b676] py-2 px-4 border border-[#87b676] rounded">
+          We are currently recruiting for our Web & Mobile team! Apply by <span className="font-bold">April 4, 2025 @11:59 PM PST</span> to join our team and make an impact on campus sustainability!
+        </h3>
+        <br></br>
+        <button className="bg-[#87b676]/80 text-white underline hover:bg-transparent white font-semibold hover:text-[#87b676] py-2 px-4 border border-[#87b676] rounded">
           <Link href={"http://tinyurl.com/zotbins25springdev"} target="_blank">
             <p>Apply Here!</p>
           </Link>
         </button>
-        </h3>
       </div>
-      <div className="space-x-4">
+      {/* <div className="space-x-4">
         <button className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded">
           <Link href={"https://www.instagram.com/zotbins/"} target="_blank">
             <p>Instagram</p>
@@ -35,7 +36,7 @@ const Apply = () => {
             <p>Email</p>
           </Link>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
