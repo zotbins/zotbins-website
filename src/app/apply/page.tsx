@@ -11,14 +11,26 @@ const Apply = () => {
           <br></br>To learn more about Zotbins, follow us on our social media platforms for the latest news, updates, and progress on our initiatives.
         </h3> */}
         <h3 className="text-xl mt-4">
-          We are currently recruiting for our Web & Mobile team! Apply by <span className="font-bold">April 4, 2025 @11:59 PM PST</span> to join our team and make an impact on campus sustainability!
+          We are currently recruiting for <span className="italic font-semibold">Mobile Developers</span> and <span className="italic font-semibold">Mechanical Engineers</span>! Apply to join our team and make an impact on campus sustainability! ♻️
+          <div className="mx-10"><ul role="list" className="list-disc">
+          <li>Due April 4, 2025 @11:59 PM for developers</li> 
+          <li>Due April 9, 2025 @11:59PM for engineers</li> 
+          </ul></div>
         </h3>
         <br></br>
-        <button className="bg-[#87b676]/80 text-white underline hover:bg-transparent white font-semibold hover:text-[#87b676] py-2 px-4 border border-[#87b676] rounded">
+        <button className="bg-[#87b676]/80 text-white underline hover:bg-transparent white font-semibold hover:text-[#87b676] py-2 px-4 border border-[#87b676] rounded-lg">
           <Link href={"http://tinyurl.com/zotbins25springdev"} target="_blank">
-            <p>Apply Here!</p>
+            <p>Mobile Developer Application</p>
           </Link>
         </button>
+        <button className="bg-[#87b676]/80 text-white underline hover:bg-transparent white mx-2 font-semibold hover:text-[#87b676] py-2 px-4 border border-[#87b676] rounded-lg">
+          <Link href={"https://airtable.com/appWmHxB3QkzbNsus/shrpVESldBgCAw5bH"} target="_blank">
+            <p>Mechanical Engineer Application</p>
+          </Link>
+        </button>
+        <h3 className="text-xl mt-8">
+        Contact us if you have any questions or inquiries regarding the application process!
+        </h3>
       </div>
       {/* <div className="space-x-4">
         <button className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded">
@@ -32,7 +44,7 @@ const Apply = () => {
           </Link>
         </button>
         <button className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded">
-          <Link href={"mailto:zotbinsuci@gmail.com"} target="_blank">
+          <Link href={"mailto:zotbins@uci.edu"} target="_blank">
             <p>Email</p>
           </Link>
         </button>
