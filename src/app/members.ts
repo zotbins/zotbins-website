@@ -65,13 +65,6 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/priyapa/",
   },
   {
-    name: "Jeffrey Frederick",
-    image: "/assets/profile-images/sample-pfp-2.png",
-    role: "Engineer",
-    subgroup: "Embedded Systems",
-    linkedin: "https://www.linkedin.com/in/jeffreyfrederick1/",
-  },
-  {
     name: "Vathsan Sankaranarayanan",
     image: "/assets/profile-images/VathsanSankaranarayanan.png",
     role: "Engineer",
