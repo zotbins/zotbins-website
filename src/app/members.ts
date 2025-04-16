@@ -278,6 +278,20 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/hearty-parrenas/",
   },
   {
+    name: "Ryan Bui",
+    image: "/assets/profile-images/RyanBui.png",
+    role: "Developer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/prodbui/",
+  },
+  {
+    name: "Gaurav Kriplani",
+    image: "/assets/profile-images/GauravKriplani.png",
+    role: "Developer",
+    subgroup: "Web & Mobile",
+    linkedin: "https://www.linkedin.com/in/gaurav-kriplani/",
+  },
+  {
     name: "Kaylee Doliente",
     image: "/assets/profile-images/KayleeDoliente.png",
     role: "Designer",
