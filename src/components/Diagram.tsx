@@ -64,8 +64,8 @@ function Diagram() {
 
       const positions: Record<string, { x: number; y: number }> = {
         "Web and Mobile": { x: 600, y: -450 },
-        "API": { x: -800, y: 150 },
-        "Embedded+Hardware": { x: 600, y: 150 },
+        "API": { x: -800, y: 175 },
+        "Embedded+Hardware": { x: 600, y: 175 },
         "WasteRecognition": { x: -800, y: -450 },
       };
 

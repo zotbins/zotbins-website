@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import zotbins_logo from "../../public/assets/zotbins_logo.svg";
+import "animate.css";
 
 const Introduction = () => {
   return (
@@ -10,12 +11,12 @@ const Introduction = () => {
         <Image
           src={zotbins_logo}
           alt="zotbins_logo"
-          className="pb-8 max-w-48 md:max-w-64 w-full"
+          className="pb-8 max-w-48 md:max-w-64 w-full animate__animated animate__bounce"
         />
-        <h1 className="text-8xl text-[#87b676]">ZotBins</h1>
-        <h3 className="text-2xl text-[#87b676]">A Smart Waste Bins Project</h3>
+        <h1 className="text-8xl text-[#87b676] animate__animated animate__lightSpeedInRight">ZotBins</h1>
+        <h3 className="text-2xl text-[#87b676] animate__animated animate__fadeInUp">A Smart Waste Bins Project</h3>
 
-        <p className="text-xl max-w-[700px] mx-auto mt-8 px-8">
+        <p className="text-xl max-w-[700px] mx-auto mt-8 px-8 animate__animated animate__fadeInUp">
           An independent group of undergraduate researchers passionate about
           technology-based zero waste management.
         </p>
@@ -35,7 +36,6 @@ const Introduction = () => {
           </Link>
         </button>
       </div>
-
       <div className="m-8">
         <div className="text-black/80 text-left py-4">
           <h2 className="text-4xl font-bold text-[#87b676]">Our Mission</h2>
@@ -55,7 +55,6 @@ const Introduction = () => {
           </Link>
         </button>
       </div>
-
       <div className="m-8">
         <div className="text-black/80 text-left py-4">
           <h2 className="text-4xl font-bold text-[#87b676]">Our Partners</h2>

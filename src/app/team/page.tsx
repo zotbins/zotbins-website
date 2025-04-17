@@ -7,6 +7,7 @@ import MentorCard from "@/components/MentorCard";
 import { mentors } from "../mentors";
 import { advisors } from "../advisors";
 import AdvisorCard from "@/components/AdvisorCard";
+import "animate.css";
 
 const Team = () => {
   const teams = [
@@ -23,8 +24,8 @@ const Team = () => {
   return (
     <div className="pt-12 py-1 m-8">
       <div className="text-black/80 text-left py-4">
-        <h2 className="text-4xl font-bold text-[#87b676]">Our Team</h2>
-        <h3 className="text-xl mt-4">
+        <h2 className="text-4xl font-bold text-[#87b676] animate__animated animate__fadeInUp">Our Team</h2>
+        <h3 className="text-xl mt-4 animate__animated animate__fadeInUp">
           Our team consists of five subgroups, each of which provide an
           essential component to our research towards building the ZotBin.
           Explore our subgroups and members below!
@@ -37,7 +38,7 @@ const Team = () => {
             <button
               key={team}
               onClick={() => setActiveTeam(team)}
-              className={`p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20 ${
+              className={`transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20 ${
                 activeTeam === team ? "bg-[#87b676]/50" : ""
               }`}
             >
@@ -49,7 +50,7 @@ const Team = () => {
         <div className="md:hidden flex">
           <button
             onClick={() => setOpenDropdown(!openDropdown)}
-            className="bg-transparent hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded flex flex-row items-center justify-between w-full"
+            className="bg-transparent transition duration-300 ease-in-out hover:-translate-y-1 hover:bg-[#87b676]/80 text-[#87b676] font-semibold hover:text-white py-2 px-4 border border-[#87b676] hover:border-transparent rounded flex flex-row items-center justify-between w-full"
           >
             {activeTeam}
             <FaAngleDown className="ml-4" />
@@ -69,7 +70,7 @@ const Team = () => {
                   setActiveTeam(team);
                   setOpenDropdown(!openDropdown);
                 }}
-                className="flex p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20"
+                className="flex p-2 rounded-lg text-black/80 font-bold hover:bg-[#87b676]/20 transition duration-300 ease-in-out hover:-translate-y-1"
               >
                 {team}
               </button>

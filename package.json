@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@xyflow/react": "^12.4.1",
+    "animate.css": "^4.1.1",
     "framer-motion": "^11.9.0",
     "next": "14.2.14",
     "react": "^18",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-animate-on-scroll": "^2.1.8",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",

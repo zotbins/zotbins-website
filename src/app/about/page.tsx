@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import "animate.css";
 
 const About = () => {
   return (
     <div className="pt-12 m-8">
       <div className="text-black/80 text-left py-4">
-        <h2 className="text-4xl font-bold text-[#87b676]">About Us</h2>
-        <h3 className="text-xl mt-4">
+        <h2 className="text-4xl font-bold text-[#87b676] animate__animated animate__fadeInUp">About Us</h2>
+        <h3 className="text-xl mt-4  animate__animated animate__fadeInUp">
           We are an independent group of undergraduate researchers at UCI
           passionate about technology-based zero waste management. We aim to
           assist communities towards improving waste diversion rates (% of waste
@@ -14,19 +15,24 @@ const About = () => {
           reducing waste management CO<sub>2</sub> emissions!
         </h3>
       </div>
-      <div className="py-4 flex justify-center">
-        <Image
-          className="rounded-lg w-full max-w-3xl"
-          width={4032}
-          height={1672}
-          src={"/assets/group_photo.jpg"}
-          alt="group_photo"
-        />
+      <div className="py-4 flex justify-center animate__animated animate__fadeInUp">
+        <div className="relative">
+          <div className="absolute -bottom-3 -right-3 w-full h-full border-4 border-[#87b676] rounded-lg"></div>
+          <div className="relative rounded-lg overflow-hidden">
+            <Image
+              className="rounded-md w-full max-w-3xl"
+              width={4032}
+              height={1672}
+              src={"/assets/group_photo.jpg"}
+              alt="group_photo"
+            />
+          </div>
+        </div>
       </div>
 
       <div className="text-black/80 text-left py-4">
-        <h2 className="text-4xl font-bold text-[#87b676]">Our Story</h2>
-        <h3 className="text-xl mt-4">
+        <h2 className="text-4xl font-bold text-[#87b676]  animate__animated animate__fadeInUp">Our Story</h2>
+        <h3 className="text-xl mt-4  animate__animated animate__fadeInUp">
           This project started at UCI in 2017 with a group of 4 undergraduates
           for a hackathon hosted by UCI TIPPERS. The aim of the project was to
           help create a tool to help with UCI's zero waste initiatives. With the

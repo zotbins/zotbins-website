@@ -19,7 +19,7 @@ export default memo(({ data }: any) => {
           opacity: opacity,
           padding: '10px',
           background: data.backgroundColor, 
-          borderRadius: '5px',
+          borderRadius: '20px',
         }}
       >
         <strong className='text-3xl font-light' style={{color: data.textColor}}>{data.label}</strong>
