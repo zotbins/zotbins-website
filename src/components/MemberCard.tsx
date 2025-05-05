@@ -6,7 +6,7 @@ import Link from "next/link";
 const MemberCard = (props: any) => {
   return (
     <div className="w-[23rem] border border-gray-300 flex py-4 pl-4 rounded-lg">
-      <div className="flex flex-row items-center">
+      <div className="flex flex-row items-top">
         <Image
           width="100"
           height="100"
@@ -20,9 +20,9 @@ const MemberCard = (props: any) => {
           </h5>
           <div className="mb-2 text-md text-gray-500">{props.member.role}</div>
           <div className="text-xl text-black/80 w-fit">
-            <Link href={props.member.linkedin} target="_blank">
+            {props.member.linkedin ? <Link href={props.member.linkedin} target="_blank">
               <FaLinkedin />
-            </Link>
+            </Link> : null}
           </div>
         </div>
       </div>

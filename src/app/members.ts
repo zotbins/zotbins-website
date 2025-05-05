@@ -54,14 +54,12 @@ export const members = [
     image: "/assets/profile-images/sample-pfp-2.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"http://www.linkedin.com/in/"
   },
   {
     name: "Diego Garcia-Saavedra",
     image: "/assets/profile-images/sample-pfp-2.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"http://www.linkedin.com/in/"
   },
   // EMBEDDED SYSTEMS
   {
