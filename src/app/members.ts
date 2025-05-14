@@ -51,15 +51,17 @@ export const members = [
   },
   {
     name: "Ethan Choi",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/EthanChoi.png",
     role: "Engineer",
     subgroup: "Hardware",
+    linkedin:"https://www.linkedin.com/in/ethanjchoi/"
   },
   {
     name: "Diego Garcia-Saavedra",
-    image: "/assets/profile-images/sample-pfp-2.png",
+    image: "/assets/profile-images/DiegoGarcia-Saavedra.png",
     role: "Engineer",
     subgroup: "Hardware",
+    linkedin:"http://www.linkedin.com/in/diego-garcia-saavedra-86b67935b/"
   },
   // EMBEDDED SYSTEMS
   {
