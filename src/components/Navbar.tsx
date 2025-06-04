@@ -54,7 +54,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <Link href={link.path}>
-                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110">{link.title}</p>
+                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">{link.title}</p>
                     </Link>
                   </li>
                 )
@@ -64,9 +64,9 @@ const Navbar = () => {
         {/* Contact, Apply */}
         <div className="flex flex-1 justify-end">
           <Link href={"contact"}>
-            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110">Contact</p>
+            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">Contact</p>
           </Link>
-          <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
+          <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
             <Link href={"apply"}>
               <p>Apply</p>
             </Link>
@@ -101,8 +101,8 @@ const Navbar = () => {
                 key={index}
                 className={
                   link.title === "ZotBins"
-                    ? "text-[#87b676] transition duration-300 ease-in-out hover:text-black/50 hover:-translate-y-1 hover:scale-110"
-                    : "hover:text-black/50 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110"
+                    ? "text-[#87b676] transition duration-300 ease-in-out hover:text-gray-600 hover:-translate-y-1 hover:scale-110"
+                    : "hover:text-gray-600 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110"
                 }
               >
                 <Link href={link.path} onClick={closeNav}>

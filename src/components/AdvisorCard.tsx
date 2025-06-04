@@ -13,7 +13,7 @@ const MentorCard = (props: any) => {
           alt="Profile Picture"
         />
         <div className="flex flex-col px-4">
-          <h5 className="text-xl font-medium text-black/80">
+          <h5 className="text-xl font-medium text-gray-600">
             {props.member.name}
           </h5>
           <div className="mb-2 text-md text-gray-500">
