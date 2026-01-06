@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="pt-6">
+    <div className="bg-[#F6FFEC] pt-6">
       {/* Desktop View */}
 
       <div className="hidden md:flex mx-8 justify-between items-center">
@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
         </div>
         {/* About, Our Project, Team */}
-        <div className="flex flex-1 justify-center">
+        <div className="flex flex-1 justify-center bg-[#7ECD43] p-2 rounded-3xl">
           <ul className="flex flex-row">
             {navLinks.map(
               (link, index) =>
@@ -54,7 +54,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <Link href={link.path}>
-                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">
+                      <p className="text-white transition duration-300 ease-in-out hover:text-[#3A8202] hover:-translate-y-1 hover:scale-110 text-gray-600">
                         {link.title}
                       </p>
                     </Link>
