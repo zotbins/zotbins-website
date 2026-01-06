@@ -39,7 +39,7 @@ const Team = () => {
         </div>
 
         {/* Teams Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
+        <div className="bg-[#d3eacb] rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <div className="hidden md:flex flex-row justify-center space-x-4 mb-8">
             {teams.map((team) => (
               <button
