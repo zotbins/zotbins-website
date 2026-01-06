@@ -9,7 +9,6 @@ import DataDrivenIcon from "../../public/assets/card-icons/DataDrivenIcon.png";
 import SustainabilityIcon from "../../public/assets/card-icons/SustainabilityIcon.png";
 import ZotBinsLogoGrass from "../../public/assets/ZotbinLogoGrass.png";
 import GroupPhoto from "../../public/assets/group_photo.jpg";
-import GroupPhoto2 from "../../public/assets/GroupPhoto2.jpeg";
 
 const Introduction = () => {
   const coreValueCardsDate = [
@@ -53,12 +52,12 @@ const Introduction = () => {
 
               {/* Learn More & Apply Buttons */}
               <div className="flex flex-row items-center space-x-6 mt-8">
-                <button className=" bg-[#61B240] text-white text-lg hover:bg-[#87b676] text-[#87b676]  hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                <button className=" bg-[#61B240] text-white text-lg hover:bg-[#7ECD43] text-[#87b676]  hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
                   <Link href="about">
                     <p>Learn More</p>
                   </Link>
                 </button>
-                <button className="bg-white text-[#61B240] text-lg border border-[#61B240] py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                <button className="bg-white text-[#61B240] text-lg border border-[#61B240] py-3 px-8 rounded-full hover:bg-[#BFE48C] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
                   <Link href="apply">
                     <p>Apply</p>
                   </Link>
@@ -151,7 +150,7 @@ const Introduction = () => {
                   towards building the ZotBin!
                 </p>
               </div>
-              <div className="pt-4 flex flex-col justify-center space-y-10">
+              <div className="pt-4 flex flex-col items-center justify-center space-y-10 bg-[#F6FFEC] py-8 rounded-lg">
                 <div className="transform transition duration-300 hover:scale-110">
                   <Image
                     src={"/assets/UCI_DINING.png"}
@@ -204,7 +203,7 @@ const Introduction = () => {
           </div>
 
           <div className="w-1/2 px-8">
-            <Image src={GroupPhoto}></Image>
+            <Image className="rounded-lg" src={GroupPhoto}></Image>
           </div>
         </div>
       </div>
