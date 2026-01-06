@@ -8,6 +8,8 @@ import CollaborationIcon from "../../public/assets/card-icons/CollaborationIcon.
 import DataDrivenIcon from "../../public/assets/card-icons/DataDrivenIcon.png";
 import SustainabilityIcon from "../../public/assets/card-icons/SustainabilityIcon.png";
 import ZotBinsLogoGrass from "../../public/assets/ZotbinLogoGrass.png";
+import GroupPhoto from "../../public/assets/group_photo.jpg";
+import GroupPhoto2 from "../../public/assets/GroupPhoto2.jpeg";
 
 const Introduction = () => {
   const coreValueCardsDate = [
@@ -46,7 +48,7 @@ const Introduction = () => {
               <p className="text-xl text-black max-w-[700px] animate__animated animate__fadeInUp">
                 An independent group of undergraduate researchers leveraging
                 technology and data to drive zero-waste, sustainable waste
-                management.
+                management. Based in University of California, Irvine.
               </p>
 
               {/* Learn More & Apply Buttons */}
@@ -76,7 +78,7 @@ const Introduction = () => {
       </div>
 
       {/* Cards Section */}
-      <div className="-mt-32 relative z-10">
+      <div className="-mt-32 relative z-10 mb-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
             {coreValueCardsDate.map((card, index) => (
@@ -91,88 +93,118 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
-        {/* Mission Section */}
-        <h2 className="bg-white text-4xl font-bold text-[#87b676] mb-6">
+      {/* Mission Section */}
+      <div className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-14">
+        <h2 className="bg-white text-4xl font-bold text-[#61B240] mb-6">
           Our Mission
         </h2>
-        <div className=" mb-16 animate__animated animate__fadeInUp">
-          <div className="text-left">
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+        <div className="w-full flex flex-row justify-between mb-16 animate__animated animate__fadeInUp">
+          <div className="text-left text-lg text-gray-700">
+            <p className="leading-relaxed">
               ZotBins is an innovative smart waste bin system designed to
-              optimize waste management efficiency and promote sustainable
+              improve waste management efficiency and promote sustainable
               practices. By collecting and analyzing data on waste diversion
-              rates—specifically, the proportion of incorrectly placed trash
-              items relative to the total waste volume (e.g. glass bottle in the
-              trash bin instead of recycle bin)—we aim to enhance campus-wide
-              waste management practices.
+              rates, specifically the proportion of incorrectly disposed items
+              relative to the total waste volume, such as a glass bottle placed
+              in a trash bin instead of a recycling bin, ZotBins aims to enhance
+              waste management practices across campus.
             </p>
-            <button className="bg-transparent hover:bg-[#87b676] text-[#87b676] font-semibold hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
-              <Link href="our-project">
-                <p>Learn More</p>
-              </Link>
-            </button>
           </div>
         </div>
+      </div>
 
-        {/* ZotBin Map */}
-        <h2 className="text-4xl font-bold text-[#87b676] mb-6">
-          Map of Waste Bins
+      <div className="w-full bg-[#5A8221] pt-8">
+        <div className="max-w-6xl mx-auto px-4 flex flex-row">
+          {/* ZotBin Map */}
+          <div className="w-2/3 px-4">
+            <h2 className="text-4xl font-bold text-white pt-8 mb-4">
+              Map of Waste Bins
+            </h2>
+            <div className="mb-8 animate__animated animate__fadeInUp">
+              <p className="text-lg text-white leading-relaxed">
+                Below is an interactive map of future projected waste bins.
+              </p>
+            </div>
+
+            {/* Google Map Embed */}
+            <div className="overflow-hidden mb-16">
+              <div className="mt-[-60px]">
+                <iframe
+                  src="https://www.google.com/maps/d/u/0/embed?mid=17OJsLw43_w0b_qqxIFMXAO_bia_ixdw&ehbc=2E312F&noprof=1"
+                  width="640"
+                  height="480"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          {/* <div className=" mb-16 animate__animated animate__fadeInUp"></div> */}
+
+          {/* Partners Section */}
+          <div className="w-1/3 px-4">
+            <h2 className="text-4xl font-bold text-white pt-8 mb-4">
+              Our Partners
+            </h2>
+            <div className="animate__animated animate__fadeInUp">
+              <div className="text-left mb-8">
+                <p className="text-lg text-white">
+                  We are thankful to our partners for supporting our journey
+                  towards building the ZotBin!
+                </p>
+              </div>
+              <div className="pt-4 flex flex-col justify-center space-y-10">
+                <div className="transform transition duration-300 hover:scale-110">
+                  <Image
+                    src={"/assets/UCI_DINING.png"}
+                    height="160"
+                    width="160"
+                    alt="uci-dining"
+                    className=""
+                  />
+                </div>
+                <div className="transform transition duration-300 hover:scale-110">
+                  <Image
+                    src={"/assets/src.png"}
+                    height="120"
+                    width="120"
+                    alt="uci-src"
+                    className="rounded-lg"
+                  />
+                </div>
+                <div className="transform transition duration-300 hover:scale-110">
+                  <Image
+                    src={"/assets/UCI_ESW.png"}
+                    height="170"
+                    width="250"
+                    alt="uci-esw"
+                    className="rounded-lg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Origins Section */}
+      <div className="bg-white max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-14">
+        <h2 className="bg-white text-4xl font-bold text-[#61B240] mb-6">
+          Origins
         </h2>
-        <div className="mb-8 animate__animated animate__fadeInUp">
-          <p className="text-xl text-gray-600 leading-relaxed">
-            Below is an interactive map of future projected waste bins.
-          </p>
-        </div>
-
-        {/* Google Map Embed */}
-        <div className="overflow-hidden mb-16">
-          <div className="mt-[-60px]">
-            <iframe
-              src="https://www.google.com/maps/d/u/0/embed?mid=17OJsLw43_w0b_qqxIFMXAO_bia_ixdw&ehbc=2E312F&noprof=1"
-              width="640"
-              height="480"
-            ></iframe>
-          </div>
-        </div>
-
-        {/* Partners Section */}
-        <h2 className="text-4xl font-bold text-[#87b676] mb-4">Our Partners</h2>
-        <div className="animate__animated animate__fadeInUp">
-          <div className="text-left mb-8">
-            <p className="text-xl text-gray-600">
-              We are thankful to our partners for supporting our journey towards
-              building the ZotBin!
+        <div className="w-full flex flex-row justify-between mb-16 animate__animated animate__fadeInUp">
+          <div className="w-1/2 text-left text-lg text-gray-700">
+            <p className="leading-relaxed ">
+              ZotBins began at UCI in 2017 as a four-student hackathon project
+              hosted by UCI TIPPERS to support campus zero-waste initiatives.
+              With mentorship from faculty and graduate researchers, the team
+              grew to over fifteen members and deployed nine smart bins across
+              campus, creating a measurable impact. Today, ZotBins is shared
+              with the open-source community through ZBCE and continues to grow
+              with new undergraduate contributors each year.
             </p>
           </div>
-          <div className="flex flex-row items-center justify-center space-x-12">
-            <div className="transform transition duration-300 hover:scale-110">
-              <Image
-                src={"/assets/UCI_DINING.png"}
-                height="150"
-                width="150"
-                alt="uci-dining"
-                className=""
-              />
-            </div>
-            <div className="transform transition duration-300 hover:scale-110">
-              <Image
-                src={"/assets/src.png"}
-                height="150"
-                width="150"
-                alt="uci-src"
-                className="rounded-lg"
-              />
-            </div>
-            <div className="transform transition duration-300 hover:scale-110">
-              <Image
-                src={"/assets/UCI_ESW.png"}
-                height="150"
-                width="150"
-                alt="uci-esw"
-                className="rounded-lg"
-              />
-            </div>
+
+          <div className="w-1/2 px-8">
+            <Image src={GroupPhoto}></Image>
           </div>
         </div>
       </div>

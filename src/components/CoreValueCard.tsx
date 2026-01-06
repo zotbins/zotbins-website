@@ -12,7 +12,7 @@ const CoreValueCard: React.FC<CardProps> = ({ title, description, icon }) => {
     <div className="bg-[#BFE48C] border border-[#abd472] rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 pb-10">
       <div className="bg-white rounded-xl p-6 m-4 mb-6 text-center">
         <h3 className="text-2xl font-semibold text-[#61B240] mb-4">{title}</h3>
-        <p className="text-black">{description}</p>
+        <p className="text-gray-700">{description}</p>
       </div>
       <div className="flex justify-center items-center h-32">
         <Image

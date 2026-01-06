@@ -7,7 +7,7 @@ import zotbins_logo from "../../public/assets/zotbins_logo.svg";
 
 const navLinks = [
   { title: "Home", path: "/" },
-  { title: "About", path: "about" },
+  // { title: "About", path: "about" },
   { title: "Our Project", path: "our-project" },
   { title: "Team", path: "team" },
   { title: "Contact", path: "contact" },
@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#F6FFEC] pt-6">
+    <div className="py-4 bg-[#61B240]">
       {/* Desktop View */}
 
       <div className="hidden md:flex mx-8 justify-between items-center">
@@ -41,7 +41,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        {/* About, Our Project, Team */}
+        {/* About, Project, Team */}
         <div className="flex flex-1 justify-center bg-[#7ECD43] p-2 rounded-3xl">
           <ul className="flex flex-row">
             {navLinks.map(
@@ -70,7 +70,7 @@ const Navbar = () => {
               Contact
             </p>
           </Link>
-          <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
+          <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
             <Link href={"apply"}>
               <p>Apply</p>
             </Link>
