@@ -27,8 +27,9 @@ const Introduction = () => {
             A Smart Waste Bins Project
           </h3>
           <p className="text-xl text-gray-600 max-w-[700px] mx-auto animate__animated animate__fadeInUp">
-            An independent group of undergraduate researchers passionate about
-            technology-based zero waste management.
+            An independent group of undergraduate researchers leveraging
+            technology and data to drive zero-waste, sustainable waste
+            management.
           </p>
         </div>
 
@@ -44,17 +45,19 @@ const Introduction = () => {
             </Link>
           </button>
         </div>
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
+
+        {/* Mission Section */}
+        <h2 className="text-4xl font-bold text-[#87b676] mb-6">Our Mission</h2>
+        <div className=" mb-16 animate__animated animate__fadeInUp">
           <div className="text-left">
-            <h2 className="text-4xl font-bold text-[#87b676] mb-6">Our Mission</h2>
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
-              ZotBins is an innovative smart waste bin system designed to optimize
-              waste management efficiency and promote sustainable practices. By
-              collecting and analyzing data on waste diversion rates—specifically,
-              the proportion of incorrectly placed trash items relative to the
-              total waste volume (e.g. glass bottle in the trash bin instead of
-              recycle bin)—we aim to enhance campus-wide waste management
-              practices.
+              ZotBins is an innovative smart waste bin system designed to
+              optimize waste management efficiency and promote sustainable
+              practices. By collecting and analyzing data on waste diversion
+              rates—specifically, the proportion of incorrectly placed trash
+              items relative to the total waste volume (e.g. glass bottle in the
+              trash bin instead of recycle bin)—we aim to enhance campus-wide
+              waste management practices.
             </p>
             <button className="bg-transparent hover:bg-[#87b676] text-[#87b676] font-semibold hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
               <Link href="our-project">
@@ -64,10 +67,31 @@ const Introduction = () => {
           </div>
         </div>
 
+        {/* ZotBin Map */}
+        <h2 className="text-4xl font-bold text-[#87b676] mb-6">
+          Map of Waste Bins
+        </h2>
+        <div className="mb-8 animate__animated animate__fadeInUp">
+          <p className="text-xl text-gray-600 leading-relaxed">
+            Below is an interactive map of future projected waste bins.
+          </p>
+        </div>
+
+        {/* Google Map Embed */}
+        <div className="overflow-hidden mb-16">
+          <div className="mt-[-60px]">
+            <iframe
+              src="https://www.google.com/maps/d/u/0/embed?mid=17OJsLw43_w0b_qqxIFMXAO_bia_ixdw&ehbc=2E312F&noprof=1"
+              width="640"
+              height="480"
+            ></iframe>
+          </div>
+        </div>
+
         {/* Partners Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
+        <h2 className="text-4xl font-bold text-[#87b676] mb-4">Our Partners</h2>
+        <div className="animate__animated animate__fadeInUp">
           <div className="text-left mb-8">
-            <h2 className="text-4xl font-bold text-[#87b676] mb-4">Our Partners</h2>
             <p className="text-xl text-gray-600">
               We are thankful to our partners for supporting our journey towards
               building the ZotBin!
@@ -80,7 +104,7 @@ const Introduction = () => {
                 height="150"
                 width="150"
                 alt="uci-dining"
-                className="rounded-lg"
+                className=""
               />
             </div>
             <div className="transform transition duration-300 hover:scale-110">

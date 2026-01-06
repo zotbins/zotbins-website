@@ -131,8 +131,8 @@ export const members = [
   {
     name: "Carm Hermosilla",
     image: "/assets/profile-images/sample-pfp.png",
-    role: "Engineer",
-    subgroup: "Embedded Systems",
+    role: "Embedded Systems Engineer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/carm-hermosilla/",
     gradYear: "2025",
   },

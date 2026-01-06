@@ -6,7 +6,7 @@ import Image from "next/image";
 import zotbins_logo from "../../public/assets/zotbins_logo.svg";
 
 const navLinks = [
-  { title: "ZotBins", path: "/" },
+  { title: "Home", path: "/" },
   { title: "About", path: "about" },
   { title: "Our Project", path: "our-project" },
   { title: "Team", path: "team" },
@@ -54,7 +54,9 @@ const Navbar = () => {
                     key={index}
                   >
                     <Link href={link.path}>
-                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">{link.title}</p>
+                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">
+                        {link.title}
+                      </p>
                     </Link>
                   </li>
                 )
@@ -64,7 +66,9 @@ const Navbar = () => {
         {/* Contact, Apply */}
         <div className="flex flex-1 justify-end">
           <Link href={"contact"}>
-            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">Contact</p>
+            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">
+              Contact
+            </p>
           </Link>
           <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
             <Link href={"apply"}>

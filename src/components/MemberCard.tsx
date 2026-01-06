@@ -5,7 +5,6 @@ import Link from "next/link";
 
 const MemberCard = (props: any) => {
   return (
-    // <div className="w-[23rem] border border-[#afd0a3] flex py-4 pl-4 rounded-lg">
     <div className="w-[23rem] flex py-4 pl-4 bg-white/60 backdrop-blur-lg rounded-xl border border-white/30 shadow-lg">
       <div className="flex flex-row items-top">
         <Image
@@ -40,7 +39,6 @@ const MemberCard = (props: any) => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 
