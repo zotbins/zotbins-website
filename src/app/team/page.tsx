@@ -29,7 +29,7 @@ const Team = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         {/* Hero Section */}
         <div className="text-center mb-16 animate__animated animate__fadeIn">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#87b676] mb-6 animate__animated animate__fadeInUp">
+          <h1 className="text-5xl md:text-6xl font-bold text-[#61B240] mb-6 animate__animated animate__fadeInUp">
             Our Team
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto animate__animated animate__fadeInUp animate__delay-1s">
@@ -39,7 +39,7 @@ const Team = () => {
         </div>
 
         {/* Teams Section */}
-        <div className="bg-[#d3eacb] rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
+        <div className="bg-[#e9f7e4] rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <div className="hidden md:flex flex-row justify-center space-x-4 mb-8">
             {teams.map((team) => (
               <button
@@ -169,7 +169,7 @@ const Team = () => {
         </div>
 
         {/* Mentors Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
+        <div className="bg-[#e9f7e4] rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <h2 className="text-3xl font-bold text-[#87b676] mb-8 text-center">
             Mentors
           </h2>
@@ -183,7 +183,7 @@ const Team = () => {
         </div>
 
         {/* Advisors Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
+        <div className="bg-[#e9f7e4] rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
           <h2 className="text-3xl font-bold text-[#87b676] mb-8 text-center">
             Advisors
           </h2>
