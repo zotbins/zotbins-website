@@ -12,56 +12,56 @@ export const members = [
     image: "/assets/profile-images/sample-pfp-2.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"https://www.linkedin.com"
+    linkedin: "https://www.linkedin.com",
   },
   {
     name: "Philip Hopkins",
     image: "/assets/profile-images/PhilipHopkins.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"https://www.linkedin.com/in/philip-hopkins-a173612b5/"
+    linkedin: "https://www.linkedin.com/in/philip-hopkins-a173612b5/",
   },
   {
     name: "Mihir Mehta",
     image: "/assets/profile-images/MihirMehta.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"https://www.linkedin.com/in/mihir-mehta-a86042229/"
+    linkedin: "https://www.linkedin.com/in/mihir-mehta-a86042229/",
   },
   {
     name: "Samith Varamballi",
     image: "/assets/profile-images/SamithVaramballi.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"https://www.linkedin.com/in/samith-varamballi/"
+    linkedin: "https://www.linkedin.com/in/samith-varamballi/",
   },
   {
     name: "Chad Wong",
     image: "/assets/profile-images/ChadWong.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"http://www.linkedin.com/in/chad-wong-65a076321/"
+    linkedin: "http://www.linkedin.com/in/chad-wong-65a076321/",
   },
   {
     name: "Hudson Wheeler",
     image: "/assets/profile-images/HudsonWheeler.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"http://www.linkedin.com/in/hudson-wheeler-38786526a/"
+    linkedin: "http://www.linkedin.com/in/hudson-wheeler-38786526a/",
   },
   {
     name: "Ethan Choi",
     image: "/assets/profile-images/EthanChoi.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"https://www.linkedin.com/in/ethanjchoi/"
+    linkedin: "https://www.linkedin.com/in/ethanjchoi/",
   },
   {
     name: "Diego Garcia-Saavedra",
     image: "/assets/profile-images/DiegoGarcia-Saavedra.png",
     role: "Engineer",
     subgroup: "Hardware",
-    linkedin:"http://www.linkedin.com/in/diego-garcia-saavedra-86b67935b/"
+    linkedin: "http://www.linkedin.com/in/diego-garcia-saavedra-86b67935b/",
   },
   // EMBEDDED SYSTEMS
   {
@@ -83,7 +83,8 @@ export const members = [
     image: "/assets/profile-images/VathsanSankaranarayanan.png",
     role: "Engineer",
     subgroup: "Embedded Systems",
-    linkedin: "https://www.linkedin.com/in/srivathsan-sankaranarayanan-29659b197/",
+    linkedin:
+      "https://www.linkedin.com/in/srivathsan-sankaranarayanan-29659b197/",
   },
   {
     name: "Jerald Adriano",
@@ -133,6 +134,7 @@ export const members = [
     role: "Engineer",
     subgroup: "Embedded Systems",
     linkedin: "https://www.linkedin.com/in/carm-hermosilla/",
+    gradYear: "2025",
   },
   // WASTE RECOGNITION
   {
@@ -188,30 +190,34 @@ export const members = [
   {
     name: "Jason Zenarosa",
     image: "/assets/profile-images/JasonZenarosa.png",
-    role: "Subgroup Lead",
-    subgroup: "API",
+    role: "API Subgroup Lead",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/jasonzenarosa",
+    gradYear: "2025",
   },
   {
     name: "Manjot Singh",
     image: "/assets/profile-images/ManjotSingh.jpg",
-    role: "Subgroup Lead",
-    subgroup: "API",
+    role: "API Subgroup Lead",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/manjot-singh18",
+    gradYear: "2025",
   },
   {
     name: "Geric Capili",
     image: "/assets/profile-images/GericCapili.png",
-    role: "Developer",
-    subgroup: "API",
+    role: "API Developer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/gericcapili/",
+    gradYear: "2025",
   },
   {
     name: "Brianna Steier",
     image: "/assets/profile-images/BriannaSteier.jpg",
-    role: "Developer",
-    subgroup: "API",
+    role: "API Developer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/briannasteier",
+    gradYear: "2025",
   },
   {
     name: "Cali Kuang",
@@ -257,39 +263,52 @@ export const members = [
   },
   // WEB AND MOBILE
   {
+    name: "Evan Servito",
+    image: "/assets/profile-images/EvanServito.jpg",
+    role: "Web & Mobile Subgroup Lead",
+    subgroup: "Alumni",
+    linkedin: "https://www.linkedin.com/in/evan-servito/",
+    gradYear: "2025",
+  },
+  {
     name: "Zion Mateo",
     image: "/assets/profile-images/ZionMateo.jpg",
-    role: "Subgroup Lead",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Subgroup Lead",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/zionmateo/",
+    gradYear: "2025",
   },
   {
     name: "Sophia Tran",
     image: "/assets/profile-images/SophiaTran.jpg",
-    role: "Subgroup Lead",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Subgroup Lead",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/sophia-belle-tran/",
+    gradYear: "2025",
   },
   {
     name: "Cyrus Buffington",
     image: "/assets/profile-images/CyrusBuffington.png",
-    role: "Developer",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Developer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/cyrusbuffington/",
+    gradYear: "2025",
   },
   {
     name: "Ethan Santos",
     image: "/assets/profile-images/EthanSantos.png",
-    role: "Developer",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Developer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/ethanmadeit/",
+    gradYear: "2025",
   },
   {
     name: "Hearty Parrenas",
     image: "/assets/profile-images/HeartyParrenas.png",
-    role: "Developer",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Developer",
+    subgroup: "Alumni",
     linkedin: "https://www.linkedin.com/in/hearty-parrenas/",
+    gradYear: "2025",
   },
   {
     name: "Ryan Bui",
@@ -308,9 +327,10 @@ export const members = [
   {
     name: "Kaylee Doliente",
     image: "/assets/profile-images/KayleeDoliente.png",
-    role: "Designer",
-    subgroup: "Web & Mobile",
+    role: "Web & Mobile Designer",
+    subgroup: "Alumni",
     linkedin: "http://www.linkedin.com/in/kayleedoliente/",
+    gradYear: "2025",
   },
   {
     name: "Grace Jong",

@@ -15,14 +15,26 @@ const MemberCard = (props: any) => {
           alt="Profile Picture"
         />
         <div className="flex flex-col px-4">
-          <h5 className="text-xl font-medium text-gray-600">
-            {props.member.name}
-          </h5>
+          <div className="flex items-center">
+            <div>
+              <h5 className="text-xl font-medium text-gray-600">
+                {props.member.name}
+              </h5>
+            </div>
+            <div>
+              <p className="ml-2 text-[#87b676] text-sm">
+                {props.member.gradYear}
+              </p>
+            </div>
+          </div>
+
           <div className="mb-2 text-md text-gray-500">{props.member.role}</div>
           <div className="text-xl text-gray-600 w-fit">
-            {props.member.linkedin ? <Link href={props.member.linkedin} target="_blank">
-              <FaLinkedin />
-            </Link> : null}
+            {props.member.linkedin ? (
+              <Link href={props.member.linkedin} target="_blank">
+                <FaLinkedin />
+              </Link>
+            ) : null}
           </div>
         </div>
       </div>
