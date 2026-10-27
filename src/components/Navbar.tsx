@@ -54,7 +54,7 @@ const Navbar = () => {
                     key={index}
                   >
                     <Link href={link.path}>
-                      <p className="transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">{link.title}</p>
+                      <p className="transition duration-300 ease-in-out hover:text-primary hover:-translate-y-1 hover:scale-110 text-neutral">{link.title}</p>
                     </Link>
                   </li>
                 )
@@ -64,9 +64,9 @@ const Navbar = () => {
         {/* Contact, Apply */}
         <div className="flex flex-1 justify-end">
           <Link href={"contact"}>
-            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110 text-gray-600">Contact</p>
+            <p className="py-2 px-6 transition duration-300 ease-in-out hover:text-primary hover:-translate-y-1 hover:scale-110 text-neutral">Contact</p>
           </Link>
-          <button className="bg-[#87b676] hover:bg-[#87b676]/80 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
+          <button className="bg-primary hover:bg-primary/80 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out hover:text-white hover:-translate-y-1 hover:scale-110">
             <Link href={"apply"}>
               <p>Apply</p>
             </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
       {/* Mobile View */}
       <div className="flex mx-8 justify-between items-center">
         {!nav && (
-          <div className="md:hidden flex flex-1 justify-start align-middle text-[#87b676]">
+          <div className="md:hidden flex flex-1 justify-start align-middle text-primary">
             <Link href={"/"}>
               <Image
                 width={30}
@@ -101,8 +101,8 @@ const Navbar = () => {
                 key={index}
                 className={
                   link.title === "ZotBins"
-                    ? "text-[#87b676] transition duration-300 ease-in-out hover:text-gray-600 hover:-translate-y-1 hover:scale-110"
-                    : "hover:text-gray-600 transition duration-300 ease-in-out hover:text-[#87b676] hover:-translate-y-1 hover:scale-110"
+                    ? "text-primary transition duration-300 ease-in-out hover:text-neutral hover:-translate-y-1 hover:scale-110"
+                    : "hover:text-neutral transition duration-300 ease-in-out hover:text-primary hover:-translate-y-1 hover:scale-110"
                 }
               >
                 <Link href={link.path} onClick={closeNav}>

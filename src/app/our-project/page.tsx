@@ -42,10 +42,10 @@ const OurProject = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         {/* Hero Section */}
         <div className="text-center mb-16 animate__animated animate__fadeIn">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#87b676] mb-6 animate__animated animate__fadeInUp">
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6 animate__animated animate__fadeInUp">
             Our Project
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto animate__animated animate__fadeInUp animate__delay-1s">
+          <p className="text-xl md:text-2xl text-neutral max-w-3xl mx-auto animate__animated animate__fadeInUp animate__delay-1s">
             Revolutionizing waste management through smart technology and machine learning
           </p>
         </div>
@@ -54,8 +54,8 @@ const OurProject = () => {
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <div className="space-y-8">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-[#87b676]">The ZotBin</h2>
-              <p className="text-xl text-gray-600 leading-relaxed">
+              <h2 className="text-4xl font-bold text-primary">The ZotBin</h2>
+              <p className="text-xl text-neutral leading-relaxed">
                 We are currently researching ways to leverage new machine learning
                 models to interactively segment and classify trash to assist in proper
                 sorting. With our findings, we are constructing a physical smart waste
@@ -99,15 +99,15 @@ const OurProject = () => {
               <ImageCarousel images={images} />
             </div>
             <div className="space-y-6 order-1 md:order-2">
-              <h2 className="text-4xl font-bold text-[#87b676]">The ZotZero App</h2>
-              <p className="text-xl text-gray-600 leading-relaxed">
+              <h2 className="text-4xl font-bold text-primary">The ZotZero App</h2>
+              <p className="text-xl text-neutral leading-relaxed">
                 To facilitate the hardware, we are developing a mobile application
                 that will allow users to capture photos of their food waste, which
                 will be sent to the machine learning model and then communicate to the
                 users the correct bin for disposal.
               </p>
               <div className="flex space-x-4">
-                <button className="bg-[#87b676] text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
                   <a href="https://apps.apple.com/us/app/zotbins/id6743295314" target="_blank" rel="noopener noreferrer">
                     Download on the App Store
                   </a>
@@ -119,15 +119,15 @@ const OurProject = () => {
 
         {/* Unity Demo Section */}
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
-          <h2 className="text-4xl font-bold text-[#87b676] mb-8 text-center">Interactive Demo</h2>
+          <h2 className="text-4xl font-bold text-primary mb-8 text-center">Interactive Demo</h2>
           <div className="relative w-full aspect-video bg-white rounded-lg overflow-hidden">
             {showUnity ? (
               <>
                 {!isUnityLoaded && (
                   <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
                     <div className="text-center">
-                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#87b676] mx-auto mb-4"></div>
-                      <p className="text-gray-600">
+                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+                      <p className="text-neutral">
                         Loading 3D Demo... {Math.round(loadingProgression * 100)}%
                       </p>
                     </div>
@@ -140,7 +140,7 @@ const OurProject = () => {
                 onClick={() => setShowUnity(true)}
                 className="absolute inset-0 flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-all duration-300 rounded-lg"
               >
-                <span className="text-lg font-semibold text-[#87b676]">
+                <span className="text-lg font-semibold text-primary">
                   Click to load the 3D Demo!
                 </span>
               </button>

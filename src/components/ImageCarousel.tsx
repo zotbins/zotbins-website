@@ -54,7 +54,7 @@ export default function ImageCarousel({ images }: { images: string[] }) {
                         onClick={() => goToSlide(index)}
                         className={`w-3 h-3 rounded-full transition-all duration-800 ${
                             index === currentIndex
-                                ? 'bg-[#87b676]'
+                                ? 'bg-primary'
                                 : 'bg-gray-300 hover:bg-gray-400'
                         }`}
                     />

@@ -28,10 +28,10 @@ const Team = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         {/* Hero Section */}
         <div className="text-center mb-16 animate__animated animate__fadeIn">
-          <h1 className="text-5xl md:text-6xl font-bold text-[#87b676] mb-6 animate__animated animate__fadeInUp">
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6 animate__animated animate__fadeInUp">
             Our Team
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto animate__animated animate__fadeInUp animate__delay-1s">
+          <p className="text-xl md:text-2xl text-neutral max-w-3xl mx-auto animate__animated animate__fadeInUp animate__delay-1s">
             Meet the passionate individuals behind ZotBins, working together to revolutionize waste management!
           </p>
         </div>
@@ -44,8 +44,8 @@ const Team = () => {
                 key={team}
                 onClick={() => setActiveTeam(team)}
                 className={`px-6 py-3 rounded-full transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg ${activeTeam === team
-                    ? "bg-[#87b676] text-white shadow-lg"
-                    : "bg-white text-gray-600 hover:bg-gray-100"
+                    ? "bg-primary text-white shadow-lg"
+                    : "bg-white text-neutral hover:bg-gray-100"
                   }`}
               >
                 {team}
@@ -56,7 +56,7 @@ const Team = () => {
           <div className="md:hidden mb-8">
             <button
               onClick={() => setOpenDropdown(!openDropdown)}
-              className="w-full bg-white hover:bg-gray-100 text-gray-600 px-6 py-3 rounded-full transition-all duration-300 ease-in-out transform hover:-translate-y-1 flex items-center justify-between"
+              className="w-full bg-white hover:bg-gray-100 text-neutral px-6 py-3 rounded-full transition-all duration-300 ease-in-out transform hover:-translate-y-1 flex items-center justify-between"
             >
               {activeTeam}
               <FaAngleDown className={`transform transition-transform duration-300 ${openDropdown ? 'rotate-180' : ''}`} />
@@ -71,7 +71,7 @@ const Team = () => {
                       setOpenDropdown(false);
                     }}
                     className={`w-full px-6 py-3 text-left transition-colors duration-200 ${activeTeam === team
-                        ? "bg-[#87b676] text-white"
+                        ? "bg-primary text-white"
                         : "hover:bg-gray-100"
                       }`}
                   >
@@ -84,9 +84,9 @@ const Team = () => {
 
           {/* Team Description */}
           <div className="mb-8 p-6 bg-white rounded-xl animate__animated animate__fadeIn">
-            <h3 className="text-2xl font-bold text-[#87b676] mb-4">What we do:</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">What we do:</h3>
             {activeTeam === "Hardware" && (
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-neutral leading-relaxed">
                 We oversee the design, assembly, and maintenance of the physical
                 smart bins, encompassing their sensor arrays, wiring, and related
                 components. Additionally, we collaborate with various sub-teams to
@@ -95,7 +95,7 @@ const Team = () => {
               </p>
             )}
             {activeTeam === "Embedded Systems" && (
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-neutral leading-relaxed">
                 Formerly utilizing Arduino-IDE, we are currently overhauling the
                 ZotBins project into the ESP-IDF framework with the intent to use
                 FreeRTOS scheduling on the sensor array. We collaborate with the
@@ -105,7 +105,7 @@ const Team = () => {
               </p>
             )}
             {activeTeam === "Waste Recognition" && (
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-neutral leading-relaxed">
                 We are researching, training, and improving a computer vision model
                 to perform image localization and classification. We collaborate
                 closely with the Hardware and Web & Mobile teams to integrate these
@@ -115,7 +115,7 @@ const Team = () => {
               </p>
             )}
             {activeTeam === "API" && (
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-neutral leading-relaxed">
                 We leverage cloud technologies to develop scalable middleware
                 infrastructure that acts as a bridge between hardware and software.
                 Our job is to ensure the smooth and secure transfer of data from
@@ -125,7 +125,7 @@ const Team = () => {
               </p>
             )}
             {activeTeam === "Web & Mobile" && (
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-neutral leading-relaxed">
                 We are responsible for developing the web and mobile applications
                 (i.e. ZotZero) that our users will interact with alongside the
                 ZotBin. We work alongside designers to build elegant and intuitive
@@ -150,7 +150,7 @@ const Team = () => {
 
         {/* Mentors Section */}
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
-          <h2 className="text-3xl font-bold text-[#87b676] mb-8 text-center">Mentors</h2>
+          <h2 className="text-3xl font-bold text-primary mb-8 text-center">Mentors</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {mentors.map((m, index) => (
               <div key={index} className="animate__animated animate__fadeInUp">
@@ -162,7 +162,7 @@ const Team = () => {
 
         {/* Advisors Section */}
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
-          <h2 className="text-3xl font-bold text-[#87b676] mb-8 text-center">Advisors</h2>
+          <h2 className="text-3xl font-bold text-primary mb-8 text-center">Advisors</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {advisors.map((m, index) => (
               <div key={index} className="animate__animated animate__fadeInUp">

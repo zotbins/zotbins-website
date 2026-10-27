@@ -20,25 +20,25 @@ const Introduction = () => {
               />
             </div>
           </div>
-          <h1 className="text-6xl md:text-8xl font-bold text-[#87b676] mb-4 animate__animated animate__lightSpeedInRight">
+          <h1 className="text-6xl md:text-8xl font-bold text-primary mb-4 animate__animated animate__lightSpeedInRight">
             ZotBins
           </h1>
-          <h3 className="text-2xl md:text-3xl text-[#87b676] mb-8 animate__animated animate__fadeInUp">
+          <h3 className="text-2xl md:text-3xl text-primary mb-8 animate__animated animate__fadeInUp">
             A Smart Waste Bins Project
           </h3>
-          <p className="text-xl text-gray-600 max-w-[700px] mx-auto animate__animated animate__fadeInUp">
+          <p className="text-xl text-neutral max-w-[700px] mx-auto animate__animated animate__fadeInUp">
             An independent group of undergraduate researchers passionate about
             technology-based zero waste management.
           </p>
         </div>
 
         <div className="flex flex-row items-center justify-center space-x-6 mb-16">
-          <button className="bg-transparent hover:bg-[#87b676] text-[#87b676] font-semibold hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+          <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-3 px-8 border-2 border-primary hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
             <Link href="about">
               <p>Who We Are</p>
             </Link>
           </button>
-          <button className="bg-[#87b676] text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+          <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
             <Link href="apply">
               <p>Apply</p>
             </Link>
@@ -46,8 +46,8 @@ const Introduction = () => {
         </div>
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <div className="text-left">
-            <h2 className="text-4xl font-bold text-[#87b676] mb-6">Our Mission</h2>
-            <p className="text-xl text-gray-600 leading-relaxed mb-8">
+            <h2 className="text-4xl font-bold text-primary mb-6">Our Mission</h2>
+            <p className="text-xl text-neutral leading-relaxed mb-8">
               ZotBins is an innovative smart waste bin system designed to optimize
               waste management efficiency and promote sustainable practices. By
               collecting and analyzing data on waste diversion rates—specifically,
@@ -56,7 +56,7 @@ const Introduction = () => {
               recycle bin)—we aim to enhance campus-wide waste management
               practices.
             </p>
-            <button className="bg-transparent hover:bg-[#87b676] text-[#87b676] font-semibold hover:text-white py-3 px-8 border-2 border-[#87b676] hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+            <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-3 px-8 border-2 border-primary hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
               <Link href="our-project">
                 <p>Learn More</p>
               </Link>
@@ -67,8 +67,8 @@ const Introduction = () => {
         {/* Partners Section */}
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
           <div className="text-left mb-8">
-            <h2 className="text-4xl font-bold text-[#87b676] mb-4">Our Partners</h2>
-            <p className="text-xl text-gray-600">
+            <h2 className="text-4xl font-bold text-primary mb-4">Our Partners</h2>
+            <p className="text-xl text-neutral">
               We are thankful to our partners for supporting our journey towards
               building the ZotBin!
             </p>

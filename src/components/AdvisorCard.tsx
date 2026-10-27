@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const MentorCard = (props: any) => {
   return (
-    <div className="w-[23rem] border border-gray-300 flex py-4 pl-4 rounded-lg">
+    <div className="w-92 border border-gray-300 flex py-4 pl-4 rounded-lg">
       <div className="flex flex-row items-center">
         <Image
           width="100"
@@ -13,7 +13,7 @@ const MentorCard = (props: any) => {
           alt="Profile Picture"
         />
         <div className="flex flex-col px-4">
-          <h5 className="text-xl font-medium text-gray-600">
+          <h5 className="text-xl font-medium text-neutral">
             {props.member.name}
           </h5>
           <div className="mb-2 text-md text-gray-500">
