@@ -41,6 +41,8 @@ const teams: { name: string; heading?: string; description?: string }[] = [
   },
 ];
 
+const isLead = (m: Member) => /\bLead\b/.test(m.title);
+
 const pill =
   "px-6 py-3 rounded-full transition-all duration-300 ease-in-out hover:-translate-y-1";
 
@@ -61,7 +63,9 @@ const Team = () => {
       .catch(() => setMembers([]));
   }, []);
 
-  const activeMembers = members.filter((m) => m.team === activeTeam);
+  const activeMembers = members
+    .filter((m) => m.team === activeTeam)
+    .sort((a, b) => Number(isLead(b)) - Number(isLead(a)));
   const active = teams.find((t) => t.name === activeTeam);
 
   return (
