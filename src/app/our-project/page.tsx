@@ -1,10 +1,8 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Diagram from "@/components/Diagram";
 import "animate.css";
 import ImageCarousel from "@/components/ImageCarousel";
-import { Unity, useUnityContext } from "react-unity-webgl";
 
 const OurProject = () => {
   const images = [
@@ -14,28 +12,6 @@ const OurProject = () => {
     "/assets/screenshots/4.png",
     "/assets/screenshots/5.png",
   ];
-
-  const [isUnityLoaded, setIsUnityLoaded] = useState(false);
-  const [isUnityReady, setIsUnityReady] = useState(false);
-  const [showUnity, setShowUnity] = useState(false);
-
-  const { unityProvider, isLoaded, loadingProgression } = useUnityContext({
-    loaderUrl: "/assets/ZotBinsDemo/Build/ZotBinsDemo.loader.js",
-    dataUrl: "/assets/ZotBinsDemo/Build/ZotBinsDemo.data",
-    frameworkUrl: "/assets/ZotBinsDemo/Build/ZotBinsDemo.framework.js",
-    codeUrl: "/assets/ZotBinsDemo/Build/ZotBinsDemo.wasm",
-  });
-
-  useEffect(() => {
-    console.log("Unity loading state:", { isLoaded, loadingProgression });
-    if (isLoaded) {
-      setIsUnityLoaded(true);
-      setTimeout(() => {
-        console.log("Setting Unity ready");
-        setIsUnityReady(true);
-      }, 1000);
-    }
-  }, [isLoaded, loadingProgression]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -93,7 +69,7 @@ const OurProject = () => {
         </div>
 
         {/* ZotZero App Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
+        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative group order-2 md:order-1">
               <ImageCarousel images={images} />
@@ -115,41 +91,6 @@ const OurProject = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Unity Demo Section */}
-        <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
-          <h2 className="text-4xl font-bold text-primary mb-8 text-center">Interactive Demo</h2>
-          <div className="relative w-full aspect-video bg-white rounded-lg overflow-hidden">
-            {showUnity ? (
-              <>
-                {!isUnityLoaded && (
-                  <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-                    <div className="text-center">
-                      <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-                      <p className="text-neutral">
-                        Loading 3D Demo... {Math.round(loadingProgression * 100)}%
-                      </p>
-                    </div>
-                  </div>
-                )}
-                <Unity unityProvider={unityProvider} className="w-full h-full" />
-              </>
-            ) : (
-              <button
-                onClick={() => setShowUnity(true)}
-                className="absolute inset-0 flex items-center justify-center bg-gray-100 hover:bg-gray-200 transition-all duration-300 rounded-lg"
-              >
-                <span className="text-lg font-semibold text-primary">
-                  Click to load the 3D Demo!
-                </span>
-              </button>
-            )}
-
-          </div>
-          <p className="text-center text-gray-500 text-sm mt-4">
-            Try our interactive 3D demo to see how a ZotBin works!
-          </p>
         </div>
       </div>
     </div >
