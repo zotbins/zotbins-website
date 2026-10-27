@@ -1,23 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary: #87b676;
-  --color-neutral: var(--color-gray-600);
-}
-
-/* Tailwind v4 defaults borders to currentcolor; keep the v3 look. */
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
-}
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -30,8 +12,32 @@
   }
 }
 
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #87b676;
+  --color-primary-dark: #7aa366;
+  --color-neutral: var(--color-gray-600);
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* animate.css's fadeInUp slides up 100% of the element's height; keep it subtle. */
+@keyframes fadeInUpSoft {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate__animated.animate__fadeInUp {
+  animation-name: fadeInUpSoft;
 }

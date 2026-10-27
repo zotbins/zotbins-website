@@ -1,29 +1,34 @@
-import React from "react";
 import Image from "next/image";
-import { FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
+import { Member, linkInfo, sortLinks } from "@/lib/members";
 
-const MemberCard = (props: any) => {
+const MemberCard = ({ member }: { member: Member }) => {
   return (
-    <div className="w-92 border border-gray-300 flex py-4 pl-4 rounded-lg">
-      <div className="flex flex-row items-top">
-        <Image
-          width="100"
-          height="100"
-          className="w-24 h-24 rounded-full shadow-lg"
-          src={props.member.image}
-          alt="Profile Picture"
-        />
-        <div className="flex flex-col px-4">
-          <h5 className="text-xl font-medium text-neutral">
-            {props.member.name}
-          </h5>
-          <div className="mb-2 text-md text-gray-500">{props.member.role}</div>
-          <div className="text-xl text-neutral w-fit">
-            {props.member.linkedin ? <Link href={props.member.linkedin} target="_blank">
-              <FaLinkedin />
-            </Link> : null}
-          </div>
+    <div className="w-92 border border-gray-300 flex items-start py-4 pl-4 rounded-lg">
+      <Image
+        width="100"
+        height="100"
+        className="w-24 h-24 rounded-full shadow-lg object-cover"
+        src={member.image}
+        alt={member.name}
+      />
+      <div className="flex flex-col px-4">
+        <h5 className="text-xl font-medium text-neutral">{member.name}</h5>
+        <div className="mb-2 text-md text-gray-500">{member.title}</div>
+        <div className="flex gap-3 text-xl text-neutral w-fit">
+          {sortLinks(member.links).map((url) => {
+            const { icon: Icon, label } = linkInfo(url);
+            return (
+              <a
+                key={url}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${member.name} on ${label}`}
+              >
+                <Icon />
+              </a>
+            );
+          })}
         </div>
       </div>
     </div>

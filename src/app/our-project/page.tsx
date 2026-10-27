@@ -107,7 +107,7 @@ const OurProject = () => {
                 users the correct bin for disposal.
               </p>
               <div className="flex space-x-4">
-                <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-primary-dark transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
                   <a href="https://apps.apple.com/us/app/zotbins/id6743295314" target="_blank" rel="noopener noreferrer">
                     Download on the App Store
                   </a>

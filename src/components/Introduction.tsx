@@ -38,7 +38,7 @@ const Introduction = () => {
               <p>Who We Are</p>
             </Link>
           </button>
-          <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-[#7aa366] transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+          <button className="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-primary-dark transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
             <Link href="apply">
               <p>Apply</p>
             </Link>
@@ -46,15 +46,17 @@ const Introduction = () => {
         </div>
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 mb-16 animate__animated animate__fadeInUp">
           <div className="text-left">
-            <h2 className="text-4xl font-bold text-primary mb-6">Our Mission</h2>
+            <h2 className="text-4xl font-bold text-primary mb-6">
+              Our Mission
+            </h2>
             <p className="text-xl text-neutral leading-relaxed mb-8">
-              ZotBins is an innovative smart waste bin system designed to optimize
-              waste management efficiency and promote sustainable practices. By
-              collecting and analyzing data on waste diversion rates—specifically,
-              the proportion of incorrectly placed trash items relative to the
-              total waste volume (e.g. glass bottle in the trash bin instead of
-              recycle bin)—we aim to enhance campus-wide waste management
-              practices.
+              ZotBins is an innovative smart waste bin system designed to
+              optimize waste management efficiency and promote sustainable
+              practices. By collecting and analyzing data on waste diversion
+              rates—specifically, the proportion of incorrectly placed trash
+              items relative to the total waste volume (e.g. glass bottle in the
+              trash bin instead of recycle bin)—we aim to enhance campus-wide
+              waste management practices.
             </p>
             <button className="bg-transparent hover:bg-primary text-primary font-semibold hover:text-white py-3 px-8 border-2 border-primary hover:border-transparent rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
               <Link href="our-project">
@@ -67,20 +69,21 @@ const Introduction = () => {
         {/* Partners Section */}
         <div className="bg-gray-50 rounded-2xl shadow-xl p-8 md:p-12 animate__animated animate__fadeInUp">
           <div className="text-left mb-8">
-            <h2 className="text-4xl font-bold text-primary mb-4">Our Partners</h2>
+            <h2 className="text-4xl font-bold text-primary mb-4">
+              Our Partners
+            </h2>
             <p className="text-xl text-neutral">
               We are thankful to our partners for supporting our journey towards
               building the ZotBin!
             </p>
           </div>
-          <div className="flex flex-row items-center justify-center space-x-12">
+          <div className="flex flex-row items-center justify-center gap-x-12">
             <div className="transform transition duration-300 hover:scale-110">
               <Image
                 src={"/assets/UCI_DINING.png"}
                 height="150"
                 width="150"
                 alt="uci-dining"
-                className="rounded-lg"
               />
             </div>
             <div className="transform transition duration-300 hover:scale-110">
@@ -89,7 +92,6 @@ const Introduction = () => {
                 height="150"
                 width="150"
                 alt="uci-src"
-                className="rounded-lg"
               />
             </div>
             <div className="transform transition duration-300 hover:scale-110">
@@ -98,7 +100,6 @@ const Introduction = () => {
                 height="150"
                 width="150"
                 alt="uci-esw"
-                className="rounded-lg"
               />
             </div>
           </div>

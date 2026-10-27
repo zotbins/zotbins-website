@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Badr Al Mallah",
+    "title": "Mechanical Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/BadrAlMallah.jpg",
+    "links": [
+      "https://www.linkedin.com/in/badralmallah"
+    ]
+  },
+  {
+    "name": "Bart Backer",
+    "title": "Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/BartBacker.jpg",
+    "links": [
+      "https://www.linkedin.com/in/bart-backer"
+    ]
+  },
+  {
+    "name": "Clement Wu",
+    "title": "Electrical Hardware Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/ClementWu.jpg",
+    "links": [
+      "https://www.linkedin.com/in/clmtwu/"
+    ]
+  },
+  {
+    "name": "Kevin Huynh",
+    "title": "Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/KevinHuynh.jpg",
+    "links": []
+  },
+  {
+    "name": "Ritvik Singh",
+    "title": "Hardware Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/RitvikSingh.jpg",
+    "links": [
+      "https://www.linkedin.com/in/singhritvik",
+      "https://github.com/ritviks123"
+    ]
+  },
+  {
+    "name": "Samith Varamballi",
+    "title": "Engineer",
+    "team": "Hardware",
+    "image": "/assets/profile-images/SamithVaramballi.jpg",
+    "links": [
+      "https://www.linkedin.com/in/samith-varamballi/"
+    ]
+  },
+  {
+    "name": "Chad Wong",
+    "title": "Subgroup Lead",
+    "team": "Embedded",
+    "image": "/assets/profile-images/ChadWong.jpg",
+    "links": [
+      "https://www.linkedin.com/in/chad-wong-65a076321/"
+    ]
+  },
+  {
+    "name": "Janice Ho",
+    "title": "Engineer",
+    "team": "Embedded",
+    "image": "/assets/profile-images/JaniceHo.jpg",
+    "links": [
+      "https://www.linkedin.com/in/-janiceho"
+    ]
+  },
+  {
+    "name": "Priya Patel",
+    "title": "Engineer",
+    "team": "Embedded",
+    "image": "/assets/profile-images/PriyaPatel.jpg",
+    "links": [
+      "https://www.linkedin.com/in/priyapa/"
+    ]
+  },
+  {
+    "name": "Vathsan Sankaranarayanan",
+    "title": "Engineer",
+    "team": "Embedded",
+    "image": "/assets/profile-images/VathsanSankaranarayanan.jpg",
+    "links": [
+      "https://www.linkedin.com/in/srivathsan-sankaranarayanan-29659b197/"
+    ]
+  },
+  {
+    "name": "Edward Chun",
+    "title": "Engineer",
+    "team": "Waste Recognition",
+    "image": "/assets/profile-images/EdwardChun.jpg",
+    "links": []
+  },
+  {
+    "name": "Ronnit Rana",
+    "title": "Engineer",
+    "team": "Waste Recognition",
+    "image": "/assets/profile-images/RonnitRana.jpg",
+    "links": []
+  },
+  {
+    "name": "Damian Moreno",
+    "title": "Engineer",
+    "team": "Full Stack",
+    "image": "/assets/profile-images/DamianMoreno.jpg",
+    "links": []
+  },
+  {
+    "name": "Ethan Chennault",
+    "title": "Engineer",
+    "team": "Full Stack",
+    "image": "/assets/profile-images/EthanChennault.jpg",
+    "links": [
+      "https://www.linkedin.com/in/echennau"
+    ]
+  },
+  {
+    "name": "Galen Jauss",
+    "title": "Subgroup Lead",
+    "team": "Full Stack",
+    "image": "/assets/profile-images/GalenJauss.jpg",
+    "links": []
+  },
+  {
+    "name": "Manu Jawahar",
+    "title": "Engineer",
+    "team": "Full Stack",
+    "image": "/assets/profile-images/ManuJawahar.jpg",
+    "links": []
+  },
+  {
+    "name": "Piyawan Chaiprasit",
+    "title": "Subgroup Lead",
+    "team": "Full Stack",
+    "image": "/assets/profile-images/PiyawanChaiprasit.jpg",
+    "links": []
+  },
+  {
+    "name": "Katelyn Lin",
+    "title": "Outreach Coordinator",
+    "team": "Outreach",
+    "image": "/assets/profile-images/KatelynLin.jpg",
+    "links": []
+  },
+  {
+    "name": "Vyom Pancholi",
+    "title": "Outreach Coordinator",
+    "team": "Outreach",
+    "image": "/assets/profile-images/VyomPancholi.jpg",
+    "links": []
+  },
+  {
+    "name": "Alex Ikeda",
+    "title": "Embedded Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/AlexIkeda.jpg",
+    "links": [
+      "https://www.linkedin.com/in/alexikeda/"
+    ]
+  },
+  {
+    "name": "Angie Xetey",
+    "title": "Web & Mobile Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/AngieXetey.jpg",
+    "links": [
+      "https://www.linkedin.com/in/angie-xetey/"
+    ]
+  },
+  {
+    "name": "Arnav Gosain",
+    "title": "Full Stack Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/ArnavGosain.jpg",
+    "links": [
+      "https://www.linkedin.com/in/arnav-gosain/"
+    ]
+  },
+  {
+    "name": "Badrish Ananth",
+    "title": "Waste Recognition Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/BadrishAnanth.jpg",
+    "links": [
+      "https://www.linkedin.com/in/badrish-ananth-8a6311231/"
+    ]
+  },
+  {
+    "name": "Diego Garcia-Saavedra",
+    "title": "Hardware Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/DiegoGarcia-Saavedra.jpg",
+    "links": [
+      "https://www.linkedin.com/in/diego-garcia-saavedra-86b67935b/"
+    ]
+  },
+  {
+    "name": "Kaveh Zare",
+    "title": "Embedded Alumni",
+    "team": "Alumni",
+    "image": "/assets/profile-images/KavehZare.jpg",
+    "links": []
+  },
+  {
+    "name": "Owen Yang",
+    "title": "Co-Founder",
+    "team": "Alumni",
+    "image": "/assets/profile-images/OwenYang.jpg",
+    "links": [
+      "https://www.linkedin.com/in/owen-yang-200989138/"
+    ]
+  }
+]
